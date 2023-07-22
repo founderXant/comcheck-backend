@@ -1,5 +1,4 @@
 from app.serializer import ScrapePDFSerializer, BuildingAreaSerializer,UserInputsSerializer
-from rest_framework.decorators import action
 from app.models import PDFDocument
 from rest_framework import viewsets 
 from rest_framework.response import Response
@@ -11,6 +10,8 @@ import json
 import xml.etree.ElementTree as ET
 from comcheck.utils import XMLGenerator
 from rest_framework.views import APIView
+from django.http import FileResponse
+
 
 
 class ScrapePDFViewSet(viewsets.ModelViewSet):
@@ -198,6 +199,12 @@ class GenerateXMLView(APIView):
 
         # Save the modified XML to a new file while preserving namespaces
         tree.write(f'{XML_OUTPUT_FILE}', encoding='utf-8', xml_declaration=True)
+        
+        file_path = f'{XML_OUTPUT_FILE}'
+        with open(file_path, 'rb') as xml_file:
+            response = FileResponse(xml_file)
+            response['Content-Type'] = 'application/xml'
+            response['Content-Disposition'] = f'attachment; filename="{os.path.basename(file_path)}"'
 
         print(f'output save in {XML_OUTPUT_FILE}')
                         
