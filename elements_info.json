@@ -1,0 +1,310 @@
+ {
+        "buildings_info": [
+            {
+                "name": "ACTIVITY_AUTO_REPAIR",
+                "power_density": "0.9",
+                "internal_load": "1.74"
+            },
+            {
+                "name": "ACTIVITY_COMMON_CONFERENCE_HALL",
+                "power_density": "1.2",
+                "internal_load": "2.4"
+            },
+            {
+                "name": "ACTIVITY_LAW_COURTHOUSE",
+                "power_density": "1.2",
+                "internal_load": "1.8"
+            },
+            {
+                "name": "ACTIVITY_FOOD_LOUNGE",
+                "power_density": "1.3",
+                "internal_load": "1.67"
+            },
+            {
+                "name": "ACTIVITY_FOOD_CAFETERIA",
+                "power_density": "1.4",
+                "internal_load": "1.97"
+            },
+            {
+                "name": "ACTIVITY_FOOD_FAMILY_RESTAURANT",
+                "power_density": "1.6",
+                "internal_load": "2.07"
+            },
+            {
+                "name": "ACTIVITY_COMMON_DORM",
+                "power_density": "1",
+                "internal_load": "1.42"
+            },
+            {
+                "name": "ACTIVITY_GYM_EXERCISE",
+                "power_density": "1",
+                "internal_load": "2.25"
+            },
+            {
+                "name": "ACTIVITY_GYM_PLAY",
+                "power_density": "1.1",
+                "internal_load": "2.55"
+            },
+            {
+                "name": "ACTIVITY_HOSPITAL_CLINIC",
+                "power_density": "1",
+                "internal_load": "2.34"
+            },
+            {
+                "name": "ACTIVITY_COMMON_HOSPITAL",
+                "power_density": "1.2",
+                "internal_load": "2.34"
+            },
+            {
+                "name": "ACTIVITY_COMMON_HOTEL",
+                "power_density": "1",
+                "internal_load": "1.62"
+            },
+            {
+                "name": "ACTIVITY_COMMON_LIBRARY",
+                "power_density": "1.3",
+                "internal_load": "1.49"
+            },
+            {
+                "name": "ACTIVITY_COMMON_MANUFACTURING",
+                "power_density": "1.3",
+                "internal_load": "2.82"
+            },
+            {
+                "name": "ACTIVITY_COMMON_MOTEL",
+                "power_density": "1",
+                "internal_load": "1.92"
+            },
+            {
+                "name": "ACTIVITY_COMMON_MOVIE",
+                "power_density": "1.2",
+                "internal_load": "2.6"
+            },
+            {
+                "name": "ACTIVITY_MULTIFAMILY",
+                "power_density": "0.7",
+                "internal_load": "1.42"
+            },
+            {
+                "name": "ACTIVITY_MUSEUM_GENERAL_EXHIBITION",
+                "power_density": "1.1",
+                "internal_load": "1.82"
+            },
+            {
+                "name": "ACTIVITY_COMMON_OFFICE",
+                "power_density": "1",
+                "internal_load": "1.7"
+            },
+            {
+                "name": "ACTIVITY_PARKING_GARAGE_AREA",
+                "power_density": "0.3",
+                "internal_load": "0.3"
+            },
+            {
+                "name": "ACTIVITY_LAW_PEN",
+                "power_density": "1",
+                "internal_load": "1.12"
+            },
+            {
+                "name": "ACTIVITY_COMMON_THEATER",
+                "power_density": "1.6",
+                "internal_load": "2.5"
+            },
+            {
+                "name": "ACTIVITY_COMMON_POLICE",
+                "power_density": "1",
+                "internal_load": "2.04"
+            },
+            {
+                "name": "ACTIVITY_COMMON_POST",
+                "power_density": "1.1",
+                "internal_load": "2.09"
+            },
+            {
+                "name": "ACTIVITY_COMMON_RELIGIOUS",
+                "power_density": "1.3",
+                "internal_load": "3.05"
+            },
+            {
+                "name": "ACTIVITY_RETAIL_SALES",
+                "power_density": "1.5",
+                "internal_load": "1.77"
+            },
+            {
+                "name": "ACTIVITY_COMMON_SCHOOL",
+                "power_density": "1.2",
+                "internal_load": ""
+            },
+            {
+                "name": "ACTIVITY_SPORTS_COURT",
+                "power_density": "2.3",
+                "internal_load": ""
+            },
+            {
+                "name": "ACTIVITY_LAW_TOWNHALL",
+                "power_density": "1.1",
+                "internal_load": "1.8"
+            },
+            {
+                "name": "ACTIVITY_COMMON_TRANS",
+                "power_density": "1",
+                "internal_load": "1.15"
+            },
+            {
+                "name": "ACTIVITY_COMMON_WAREHOUSE",
+                "power_density": "0.8",
+                "internal_load": "0.7"
+            },
+            {
+                "name": "ACTIVITY_COMMON_WORKSHOP",
+                "power_density": "1.4",
+                "internal_load": "2.32"
+            }
+        ],
+        "roofs_info": [
+            {
+                "name": "ABOVE_DECK_ROOF",
+                "description": "Insulation Entirely Above Deck",
+                "contains_continuous_r_value": true,
+                "contains_cavity_r_value": false
+            },
+            {
+                "name": "METAL_BLDG_STANDING_SEAM_ROOF",
+                "description": "Metal Building, Standing Seam",
+                "contains_continuous_r_value": true,
+                "contains_cavity_r_value": true
+            },
+            {
+                "name": "METAL_BLDG_SCREW_DOWN_ROOF",
+                "description": "Metal Building, Screw Down",
+                "contains_continuous_r_value": true,
+                "contains_cavity_r_value": true
+            },
+            {
+                "name": "WOOD_STD_JOIST_TRUSS",
+                "description": "Attic Roof, Wood Joists",
+                "contains_continuous_r_value": true,
+                "contains_cavity_r_value": true
+            },
+            {
+                "name": "NON_WOOD_JOIST_TRUSS",
+                "description": "Attic Roof, Steel Joists",
+                "contains_continuous_r_value": true,
+                "contains_cavity_r_value": true
+            }
+        ],
+        "floors_info": [
+            {
+                "name": "ALL_WOOD_JOIST_TRUSS_FLOOR",
+                "description": "Wood-Framed",
+                "contains_continuous_r_value": true,
+                "contains_cavity_r_value": true
+            },
+            {
+                "name": "NON_WOOD_JOIST_TRUSS_FLOOR",
+                "description": "Steel Joist",
+                "contains_continuous_r_value": true,
+                "contains_cavity_r_value": true
+            },
+            {
+                "name": "STRUCTURAL_SLAB_FLOOR",
+                "description": "Concrete Floor (over unconditioned space)",
+                "contains_continuous_r_value": true,
+                "contains_cavity_r_value": false
+            },
+            {
+                "name": "HEATED_SLAB_ON_GRADE",
+                "description": "Slab-On-Grade (Heated)",
+                "contains_continuous_r_value": false,
+                "contains_cavity_r_value": false
+            },
+            {
+                "name": "UNHEATED_SLAB_ON_GRADE",
+                "description": "Slab-On-Grade (Unheated)",
+                "contains_continuous_r_value": false,
+                "contains_cavity_r_value": false
+            },
+            {
+                "name": "OTHER_FLOOR",
+                "description": "Other (U-Factor option)",
+                "contains_continuous_r_value": false,
+                "contains_cavity_r_value": false
+            }
+        ],
+        "walls_info": [
+            {
+                "name": "WOOD_FRAME_16_AG_WALL",
+                "description": "Wood-Framed, 16in. o.c.",
+                "contains_continuous_r_value": true,
+                "contains_cavity_r_value": true
+            },
+            {
+                "name": "WOOD_FRAME_24_AG_WALL",
+                "description": "Wood-Framed, 24in. o.c.",
+                "contains_continuous_r_value": true,
+                "contains_cavity_r_value": true
+            },
+            {
+                "name": "METAL_FRAME_16_AG_WALL",
+                "description": "Steel-Framed, 16in. o.c.",
+                "contains_continuous_r_value": true,
+                "contains_cavity_r_value": true
+            },
+            {
+                "name": "METAL_FRAME_24_AG_WALL",
+                "description": "Steel-Framed, 24in. o.c.",
+                "contains_continuous_r_value": true,
+                "contains_cavity_r_value": true
+            }
+        ],
+        "windows_info": [
+            {
+                "name": "METAL",
+                "description": "Metal Frame",
+                "u_factor": "1.2"
+            },
+            {
+                "name": "METAL_W_THERMAL_BREAK",
+                "description": "Metal Frame w/ Thermal Break",
+                "u_factor": "1.1"
+            },
+            {
+                "name": "WOOD",
+                "description": "Wood Frame",
+                "u_factor": "0.95"
+            },
+            {
+                "name": "VINYL",
+                "description": "Vinyl Frame",
+                "u_factor": "0.95"
+            },
+            {
+                "name": "CURTAIN_WALL",
+                "description": "Curtain Wall",
+                "u_factor": "1.2"
+            },
+            {
+                "name": "OTHER_FRAME",
+                "description": "Other",
+                "u_factor": ""
+            }
+        ],
+        "doors_info": [
+                {
+                    "name": "NO_INSUL_SINGLE_METAL_DOOR",
+                    "description": "Uninsulated Single-Layer Metal"
+                },
+                {
+                    "name": "NO_INSUL_DOUBLE_METAL_DOOR",
+                    "description": "Uninsulated Double-Layer Metal"
+                },
+                {
+                    "name": "INSUL_METAL_DOOR",
+                    "description": "Insulated Metal"
+                },
+                {
+                    "name": "WOOD_DOOR",
+                    "description": "Wood"
+                }
+        ]
+ }

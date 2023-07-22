@@ -1,0 +1,39 @@
+{
+    "is_residential": false,
+    "radio_btns": {
+        "floor": 1,
+        "roof": 3,
+        "ext_wall": 1,
+        "window_col1": 1,
+        "window_col2": 2,
+        "door": 1
+    },
+    "is_swinging_door": true,
+    "window_area": [
+        6,
+        10
+    ],
+    "r-values": {
+        "floor": [
+            25,
+            30
+        ],
+        "roof": [
+            35,
+            40
+        ],
+        "ext_wall": [
+            10,
+            15
+        ],
+        "window": [
+            20,
+            25
+        ]
+    },
+    "options_floors": "Options for floors, A, B, C",
+    "options_roof": "Options for roof, A, B, C",
+    "options_ext_wall": "Options for external walls, A, B, C",
+    "options_window": "Options for windows, A, B, C",
+    "options_doors": "Options for doors, A, B, C"
+}
