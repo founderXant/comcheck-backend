@@ -41,12 +41,14 @@ INSTALLED_APPS = [
     'app',
     'rest_framework',
     'corsheaders',
-
-    
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOWED_ORIGINS = [
+  
+    "http://localhost:3000",
+
+]
 
 
 MIDDLEWARE = [

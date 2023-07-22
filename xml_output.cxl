@@ -29,7 +29,7 @@
                         <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
                         <description>Metal Building, Screw Down</description>
                         <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>8682974</bldgUseKey>
+                        <bldgUseKey>6104789</bldgUseKey>
                         <cavityRvalue>35</cavityRvalue>
                         <continuousRvalue>40</continuousRvalue>
                         <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -44,7 +44,7 @@
                         <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
                         <description>Metal Building, Screw Down</description>
                         <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>9932177</bldgUseKey>
+                        <bldgUseKey>7272316</bldgUseKey>
                         <cavityRvalue>35</cavityRvalue>
                         <continuousRvalue>40</continuousRvalue>
                         <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -59,7 +59,7 @@
                         <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
                         <description>Metal Building, Screw Down</description>
                         <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>7253548</bldgUseKey>
+                        <bldgUseKey>4534467</bldgUseKey>
                         <cavityRvalue>35</cavityRvalue>
                         <continuousRvalue>40</continuousRvalue>
                         <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -74,7 +74,7 @@
                         <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
                         <description>Metal Building, Screw Down</description>
                         <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>3532213</bldgUseKey>
+                        <bldgUseKey>1037407</bldgUseKey>
                         <cavityRvalue>35</cavityRvalue>
                         <continuousRvalue>40</continuousRvalue>
                         <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -89,7 +89,7 @@
                         <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
                         <description>Metal Building, Screw Down</description>
                         <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>9054204</bldgUseKey>
+                        <bldgUseKey>1753111</bldgUseKey>
                         <cavityRvalue>35</cavityRvalue>
                         <continuousRvalue>40</continuousRvalue>
                         <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -104,7 +104,7 @@
                         <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
                         <description>Metal Building, Screw Down</description>
                         <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>4836802</bldgUseKey>
+                        <bldgUseKey>6323961</bldgUseKey>
                         <cavityRvalue>35</cavityRvalue>
                         <continuousRvalue>40</continuousRvalue>
                         <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -119,7 +119,7 @@
                         <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
                         <description>Metal Building, Screw Down</description>
                         <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>2343883</bldgUseKey>
+                        <bldgUseKey>8045596</bldgUseKey>
                         <cavityRvalue>35</cavityRvalue>
                         <continuousRvalue>40</continuousRvalue>
                         <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -134,7 +134,7 @@
                         <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
                         <description>Metal Building, Screw Down</description>
                         <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>8764706</bldgUseKey>
+                        <bldgUseKey>1459726</bldgUseKey>
                         <cavityRvalue>35</cavityRvalue>
                         <continuousRvalue>40</continuousRvalue>
                         <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -155,7 +155,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>7227502</bldgUseKey>
+                    <bldgUseKey>2378551</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -176,7 +176,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>5012654</bldgUseKey>
+                    <bldgUseKey>1767903</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -197,7 +197,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>8533933</bldgUseKey>
+                    <bldgUseKey>6936991</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -218,7 +218,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>6495285</bldgUseKey>
+                    <bldgUseKey>1949296</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -239,7 +239,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>1974136</bldgUseKey>
+                    <bldgUseKey>8457412</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -260,7 +260,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>2729385</bldgUseKey>
+                    <bldgUseKey>7395198</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -281,7 +281,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>7347823</bldgUseKey>
+                    <bldgUseKey>2502835</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -302,7 +302,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>5321026</bldgUseKey>
+                    <bldgUseKey>9444072</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -323,7 +323,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>4152858</bldgUseKey>
+                    <bldgUseKey>7192225</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -344,7 +344,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>1765104</bldgUseKey>
+                    <bldgUseKey>7627789</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -365,7 +365,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>8062747</bldgUseKey>
+                    <bldgUseKey>7353241</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -386,7 +386,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>7333924</bldgUseKey>
+                    <bldgUseKey>9436526</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -407,7 +407,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>8851808</bldgUseKey>
+                    <bldgUseKey>1112751</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -428,7 +428,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>6725310</bldgUseKey>
+                    <bldgUseKey>8201445</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -449,7 +449,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>1100322</bldgUseKey>
+                    <bldgUseKey>6336012</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -470,7 +470,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>4836802</bldgUseKey>
+                    <bldgUseKey>6323961</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -491,7 +491,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>6130591</bldgUseKey>
+                    <bldgUseKey>7957419</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -512,7 +512,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>2343883</bldgUseKey>
+                    <bldgUseKey>8045596</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -533,7 +533,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>2474400</bldgUseKey>
+                    <bldgUseKey>9092900</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -554,7 +554,7 @@
 
                     <description>Wood-Framed</description>
                     <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>7513903</bldgUseKey>
+                    <bldgUseKey>2873778</bldgUseKey>
 
                     <cavityRvalue>25</cavityRvalue>
                     <continuousRvalue>30</continuousRvalue>
@@ -573,7 +573,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>7227502</bldgUseKey>
+                    <bldgUseKey>2378551</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -597,7 +597,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>7227502</bldgUseKey>
+                <bldgUseKey>2378551</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -613,7 +613,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>5012654</bldgUseKey>
+                    <bldgUseKey>1767903</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -630,7 +630,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>5012654</bldgUseKey>
+                    <bldgUseKey>1767903</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -654,7 +654,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>5012654</bldgUseKey>
+                <bldgUseKey>1767903</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -670,7 +670,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>5012654</bldgUseKey>
+                    <bldgUseKey>1767903</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -694,7 +694,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>5012654</bldgUseKey>
+                <bldgUseKey>1767903</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -710,7 +710,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>6495285</bldgUseKey>
+                    <bldgUseKey>1949296</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -727,7 +727,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>6495285</bldgUseKey>
+                    <bldgUseKey>1949296</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -744,7 +744,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>7347823</bldgUseKey>
+                    <bldgUseKey>2502835</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -761,7 +761,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1765104</bldgUseKey>
+                    <bldgUseKey>7627789</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -778,7 +778,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8062747</bldgUseKey>
+                    <bldgUseKey>7353241</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -795,7 +795,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8062747</bldgUseKey>
+                    <bldgUseKey>7353241</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -819,7 +819,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>8062747</bldgUseKey>
+                <bldgUseKey>7353241</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -835,7 +835,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8062747</bldgUseKey>
+                    <bldgUseKey>7353241</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -859,7 +859,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>8062747</bldgUseKey>
+                <bldgUseKey>7353241</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -875,7 +875,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>7333924</bldgUseKey>
+                    <bldgUseKey>9436526</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -899,7 +899,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>7333924</bldgUseKey>
+                <bldgUseKey>9436526</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -915,7 +915,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>7333924</bldgUseKey>
+                    <bldgUseKey>9436526</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -939,7 +939,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>7333924</bldgUseKey>
+                <bldgUseKey>9436526</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -955,7 +955,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>7333924</bldgUseKey>
+                    <bldgUseKey>9436526</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -979,7 +979,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>7333924</bldgUseKey>
+                <bldgUseKey>9436526</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -995,7 +995,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9094160</bldgUseKey>
+                    <bldgUseKey>1691280</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1019,7 +1019,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>9094160</bldgUseKey>
+                <bldgUseKey>1691280</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1035,7 +1035,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9094160</bldgUseKey>
+                    <bldgUseKey>1691280</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1059,7 +1059,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>9094160</bldgUseKey>
+                <bldgUseKey>1691280</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1075,7 +1075,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>7896447</bldgUseKey>
+                    <bldgUseKey>8698712</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1099,7 +1099,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>7896447</bldgUseKey>
+                <bldgUseKey>8698712</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1115,7 +1115,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>3692249</bldgUseKey>
+                    <bldgUseKey>1767958</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1132,7 +1132,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1168339</bldgUseKey>
+                    <bldgUseKey>6242333</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1149,7 +1149,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1168339</bldgUseKey>
+                    <bldgUseKey>6242333</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1166,7 +1166,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1168339</bldgUseKey>
+                    <bldgUseKey>6242333</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1190,7 +1190,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>1168339</bldgUseKey>
+                <bldgUseKey>6242333</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1206,7 +1206,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9286338</bldgUseKey>
+                    <bldgUseKey>8001715</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1223,7 +1223,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9286338</bldgUseKey>
+                    <bldgUseKey>8001715</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1247,7 +1247,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>9286338</bldgUseKey>
+                <bldgUseKey>8001715</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1263,7 +1263,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9941065</bldgUseKey>
+                    <bldgUseKey>4219852</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1280,7 +1280,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9941065</bldgUseKey>
+                    <bldgUseKey>4219852</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1304,7 +1304,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>9941065</bldgUseKey>
+                <bldgUseKey>4219852</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1320,7 +1320,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>6350068</bldgUseKey>
+                    <bldgUseKey>2198499</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1337,7 +1337,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>6350068</bldgUseKey>
+                    <bldgUseKey>2198499</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1361,7 +1361,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>6350068</bldgUseKey>
+                <bldgUseKey>2198499</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1377,7 +1377,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>6350068</bldgUseKey>
+                    <bldgUseKey>2198499</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1394,7 +1394,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>6261850</bldgUseKey>
+                    <bldgUseKey>7915317</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1418,7 +1418,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>6261850</bldgUseKey>
+                <bldgUseKey>7915317</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1434,7 +1434,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>6261850</bldgUseKey>
+                    <bldgUseKey>7915317</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1458,7 +1458,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>6261850</bldgUseKey>
+                <bldgUseKey>7915317</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1474,7 +1474,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9038860</bldgUseKey>
+                    <bldgUseKey>1292680</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1498,7 +1498,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>9038860</bldgUseKey>
+                <bldgUseKey>1292680</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1514,7 +1514,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9038860</bldgUseKey>
+                    <bldgUseKey>1292680</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1531,7 +1531,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8682974</bldgUseKey>
+                    <bldgUseKey>6104789</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1555,7 +1555,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>8682974</bldgUseKey>
+                <bldgUseKey>6104789</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1571,7 +1571,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8682974</bldgUseKey>
+                    <bldgUseKey>6104789</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1588,7 +1588,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8324691</bldgUseKey>
+                    <bldgUseKey>4012521</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1612,7 +1612,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>8324691</bldgUseKey>
+                <bldgUseKey>4012521</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1628,7 +1628,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8324691</bldgUseKey>
+                    <bldgUseKey>4012521</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1652,7 +1652,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>8324691</bldgUseKey>
+                <bldgUseKey>4012521</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1668,7 +1668,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9932177</bldgUseKey>
+                    <bldgUseKey>7272316</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1692,7 +1692,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>9932177</bldgUseKey>
+                <bldgUseKey>7272316</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1708,7 +1708,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9932177</bldgUseKey>
+                    <bldgUseKey>7272316</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1732,7 +1732,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>9932177</bldgUseKey>
+                <bldgUseKey>7272316</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1748,7 +1748,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1866120</bldgUseKey>
+                    <bldgUseKey>5653306</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1772,7 +1772,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>1866120</bldgUseKey>
+                <bldgUseKey>5653306</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1788,7 +1788,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1866120</bldgUseKey>
+                    <bldgUseKey>5653306</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1812,7 +1812,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>1866120</bldgUseKey>
+                <bldgUseKey>5653306</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1828,7 +1828,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8851808</bldgUseKey>
+                    <bldgUseKey>1112751</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1852,7 +1852,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>8851808</bldgUseKey>
+                <bldgUseKey>1112751</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1868,7 +1868,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8851808</bldgUseKey>
+                    <bldgUseKey>1112751</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1885,7 +1885,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8851808</bldgUseKey>
+                    <bldgUseKey>1112751</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1902,7 +1902,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>4884039</bldgUseKey>
+                    <bldgUseKey>5164363</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1926,7 +1926,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>4884039</bldgUseKey>
+                <bldgUseKey>5164363</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1942,7 +1942,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>7253548</bldgUseKey>
+                    <bldgUseKey>4534467</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -1966,7 +1966,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>7253548</bldgUseKey>
+                <bldgUseKey>4534467</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1982,7 +1982,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>5831836</bldgUseKey>
+                    <bldgUseKey>8086606</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2006,7 +2006,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>5831836</bldgUseKey>
+                <bldgUseKey>8086606</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2022,7 +2022,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>5831836</bldgUseKey>
+                    <bldgUseKey>8086606</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2046,7 +2046,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>5831836</bldgUseKey>
+                <bldgUseKey>8086606</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2062,7 +2062,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>3532213</bldgUseKey>
+                    <bldgUseKey>1037407</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2086,7 +2086,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>3532213</bldgUseKey>
+                <bldgUseKey>1037407</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2102,7 +2102,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>3532213</bldgUseKey>
+                    <bldgUseKey>1037407</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2126,7 +2126,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>3532213</bldgUseKey>
+                <bldgUseKey>1037407</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2142,7 +2142,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9404198</bldgUseKey>
+                    <bldgUseKey>9758607</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2166,7 +2166,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>9404198</bldgUseKey>
+                <bldgUseKey>9758607</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2182,7 +2182,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9404198</bldgUseKey>
+                    <bldgUseKey>9758607</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2206,7 +2206,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>9404198</bldgUseKey>
+                <bldgUseKey>9758607</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2222,7 +2222,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9054204</bldgUseKey>
+                    <bldgUseKey>1753111</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2246,7 +2246,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>9054204</bldgUseKey>
+                <bldgUseKey>1753111</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2262,7 +2262,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9054204</bldgUseKey>
+                    <bldgUseKey>1753111</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2286,7 +2286,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>9054204</bldgUseKey>
+                <bldgUseKey>1753111</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2302,7 +2302,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>6725310</bldgUseKey>
+                    <bldgUseKey>8201445</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2326,7 +2326,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>6725310</bldgUseKey>
+                <bldgUseKey>8201445</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2342,7 +2342,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1100322</bldgUseKey>
+                    <bldgUseKey>6336012</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2366,7 +2366,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>1100322</bldgUseKey>
+                <bldgUseKey>6336012</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2382,7 +2382,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>4836802</bldgUseKey>
+                    <bldgUseKey>6323961</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2406,7 +2406,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>4836802</bldgUseKey>
+                <bldgUseKey>6323961</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2422,7 +2422,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>6130591</bldgUseKey>
+                    <bldgUseKey>7957419</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2446,7 +2446,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>6130591</bldgUseKey>
+                <bldgUseKey>7957419</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2462,7 +2462,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>2343883</bldgUseKey>
+                    <bldgUseKey>8045596</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2486,7 +2486,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>2343883</bldgUseKey>
+                <bldgUseKey>8045596</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2502,7 +2502,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>2474400</bldgUseKey>
+                    <bldgUseKey>9092900</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2526,7 +2526,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>2474400</bldgUseKey>
+                <bldgUseKey>9092900</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2542,7 +2542,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>7513903</bldgUseKey>
+                    <bldgUseKey>2873778</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2566,7 +2566,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>7513903</bldgUseKey>
+                <bldgUseKey>2873778</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2582,7 +2582,7 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 16in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8764706</bldgUseKey>
+                    <bldgUseKey>1459726</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -2606,7 +2606,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>8764706</bldgUseKey>
+                <bldgUseKey>1459726</bldgUseKey>
                 <propUvalue>1.2</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -2636,7 +2636,7 @@
         </wholeBldgUses>
         <activityUses>
         <activityUse>
-                        <key>7227502</key>
+                        <key>2378551</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-1.1 CORRIDOR</activityDescription>
                         <areaDescription>FCU-1.1 CORRIDOR</areaDescription>
@@ -2656,7 +2656,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>5012654</key>
+                        <key>1767903</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-1.1 LOBBY</activityDescription>
                         <areaDescription>FCU-1.1 LOBBY</areaDescription>
@@ -2676,7 +2676,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>8533933</key>
+                        <key>6936991</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-1.1 OFFICE</activityDescription>
                         <areaDescription>FCU-1.1 OFFICE</areaDescription>
@@ -2696,7 +2696,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>6495285</key>
+                        <key>1949296</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-1.1 PACKAGE</activityDescription>
                         <areaDescription>FCU-1.1 PACKAGE</areaDescription>
@@ -2716,7 +2716,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>1974136</key>
+                        <key>8457412</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-1.1 R/R'S</activityDescription>
                         <areaDescription>FCU-1.1 R/R'S</areaDescription>
@@ -2736,7 +2736,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>2729385</key>
+                        <key>7395198</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-1.2 BIKE</activityDescription>
                         <areaDescription>FCU-1.2 BIKE</areaDescription>
@@ -2756,7 +2756,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>7347823</key>
+                        <key>2502835</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-1.2 CORRIDOR</activityDescription>
                         <areaDescription>FCU-1.2 CORRIDOR</areaDescription>
@@ -2776,7 +2776,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>5321026</key>
+                        <key>9444072</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-1.2 ELEV LOBBY</activityDescription>
                         <areaDescription>FCU-1.2 ELEV LOBBY</areaDescription>
@@ -2796,7 +2796,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>4152858</key>
+                        <key>7192225</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-1.2 PET WASH</activityDescription>
                         <areaDescription>FCU-1.2 PET WASH</areaDescription>
@@ -2816,7 +2816,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>1765104</key>
+                        <key>7627789</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-1.3, 1.4 CORRIDOR</activityDescription>
                         <areaDescription>FCU-1.3, 1.4 CORRIDOR</areaDescription>
@@ -2836,7 +2836,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>8062747</key>
+                        <key>7353241</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-1.3, 1.4 RETAIL</activityDescription>
                         <areaDescription>FCU-1.3, 1.4 RETAIL</areaDescription>
@@ -2856,7 +2856,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>7333924</key>
+                        <key>9436526</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-1.5, 1.6 RETAIL</activityDescription>
                         <areaDescription>FCU-1.5, 1.6 RETAIL</areaDescription>
@@ -2876,7 +2876,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>9094160</key>
+                        <key>1691280</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-6.4 CHEF KITCHEN</activityDescription>
                         <areaDescription>FCU-6.4 CHEF KITCHEN</areaDescription>
@@ -2896,7 +2896,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>7896447</key>
+                        <key>8698712</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-6.5 CORRIDOR</activityDescription>
                         <areaDescription>FCU-6.5 CORRIDOR</areaDescription>
@@ -2916,7 +2916,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>3692249</key>
+                        <key>1767958</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-6.5 RR'S</activityDescription>
                         <areaDescription>FCU-6.5 RR'S</areaDescription>
@@ -2936,7 +2936,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>1168339</key>
+                        <key>6242333</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-6.5 YOGA</activityDescription>
                         <areaDescription>FCU-6.5 YOGA</areaDescription>
@@ -2956,7 +2956,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>9286338</key>
+                        <key>8001715</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-6.6 FITNESS</activityDescription>
                         <areaDescription>FCU-6.6 FITNESS</areaDescription>
@@ -2976,7 +2976,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>9941065</key>
+                        <key>4219852</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-6.7 GOLF SIM</activityDescription>
                         <areaDescription>FCU-6.7 GOLF SIM</areaDescription>
@@ -2996,7 +2996,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>6350068</key>
+                        <key>2198499</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-6.8 CO-WORKER</activityDescription>
                         <areaDescription>FCU-6.8 CO-WORKER</areaDescription>
@@ -3016,7 +3016,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>6261850</key>
+                        <key>7915317</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>FCU-6.9 CONF RM</activityDescription>
                         <areaDescription>FCU-6.9 CONF RM</areaDescription>
@@ -3036,7 +3036,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>9038860</key>
+                        <key>1292680</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit A1</activityDescription>
                         <areaDescription>Unit A1</areaDescription>
@@ -3056,7 +3056,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>8682974</key>
+                        <key>6104789</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit A1 Roof</activityDescription>
                         <areaDescription>Unit A1 Roof</areaDescription>
@@ -3076,7 +3076,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>8324691</key>
+                        <key>4012521</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit A2</activityDescription>
                         <areaDescription>Unit A2</areaDescription>
@@ -3096,7 +3096,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>9932177</key>
+                        <key>7272316</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit A2 Roof</activityDescription>
                         <areaDescription>Unit A2 Roof</areaDescription>
@@ -3116,7 +3116,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>1866120</key>
+                        <key>5653306</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit A3</activityDescription>
                         <areaDescription>Unit A3</areaDescription>
@@ -3136,7 +3136,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>8851808</key>
+                        <key>1112751</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit A4</activityDescription>
                         <areaDescription>Unit A4</areaDescription>
@@ -3156,7 +3156,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>4884039</key>
+                        <key>5164363</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit A5</activityDescription>
                         <areaDescription>Unit A5</areaDescription>
@@ -3176,7 +3176,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>7253548</key>
+                        <key>4534467</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit A5 Roof</activityDescription>
                         <areaDescription>Unit A5 Roof</areaDescription>
@@ -3196,7 +3196,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>5831836</key>
+                        <key>8086606</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit B1</activityDescription>
                         <areaDescription>Unit B1</areaDescription>
@@ -3216,7 +3216,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>3532213</key>
+                        <key>1037407</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit B1 Roof</activityDescription>
                         <areaDescription>Unit B1 Roof</areaDescription>
@@ -3236,7 +3236,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>9404198</key>
+                        <key>9758607</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit B2</activityDescription>
                         <areaDescription>Unit B2</areaDescription>
@@ -3256,7 +3256,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>9054204</key>
+                        <key>1753111</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit B2 Roof</activityDescription>
                         <areaDescription>Unit B2 Roof</areaDescription>
@@ -3276,7 +3276,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>6725310</key>
+                        <key>8201445</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit B3</activityDescription>
                         <areaDescription>Unit B3</areaDescription>
@@ -3296,7 +3296,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>1100322</key>
+                        <key>6336012</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit S1</activityDescription>
                         <areaDescription>Unit S1</areaDescription>
@@ -3316,7 +3316,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>4836802</key>
+                        <key>6323961</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit S1 Roof</activityDescription>
                         <areaDescription>Unit S1 Roof</areaDescription>
@@ -3336,7 +3336,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>6130591</key>
+                        <key>7957419</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit S2</activityDescription>
                         <areaDescription>Unit S2</areaDescription>
@@ -3356,7 +3356,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>2343883</key>
+                        <key>8045596</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit S2 Roof</activityDescription>
                         <areaDescription>Unit S2 Roof</areaDescription>
@@ -3376,7 +3376,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>2474400</key>
+                        <key>9092900</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit S3</activityDescription>
                         <areaDescription>Unit S3</areaDescription>
@@ -3396,7 +3396,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>7513903</key>
+                        <key>2873778</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit S4</activityDescription>
                         <areaDescription>Unit S4</areaDescription>
@@ -3416,7 +3416,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>8764706</key>
+                        <key>1459726</key>
                         <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
                         <activityDescription>Unit S4 Roof</activityDescription>
                         <areaDescription>Unit S4 Roof</areaDescription>
