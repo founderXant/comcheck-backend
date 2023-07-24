@@ -1,763 +1,273 @@
 [
     {
-        "title": "FCU-1.1 CORRIDOR",
+        "title": "Discovery room",
         "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "300",
+        "building_choice_index": 33,
+        "floor_area": "158",
         "walls_info": [
             [
-                90,
-                72,
+                160,
+                45,
                 0,
                 0
             ]
         ],
-        "roof": "",
-        "floor": "300.0"
+        "roof": "158.0",
+        "floor": "158.0"
     },
     {
-        "title": "FCU-1.1 LOBBY",
+        "title": "Dog Wash",
         "building_choice_text": "NONE",
         "building_choice_index": "NONE",
-        "floor_area": "2730",
+        "floor_area": "104",
         "walls_info": [
-            [
-                90,
-                0,
-                0,
-                0
-            ],
-            [
-                1030,
-                290,
-                0,
-                0
-            ],
-            [
-                180,
-                25,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": "2730.0"
-    },
-    {
-        "title": "FCU-1.1 OFFICE",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "110",
-        "walls_info": [],
-        "roof": "",
-        "floor": "110.0"
-    },
-    {
-        "title": "FCU-1.1 PACKAGE",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "290",
-        "walls_info": [
-            [
-                90,
-                0,
-                0,
-                0
-            ],
             [
                 150,
-                0,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": "290.0"
-    },
-    {
-        "title": "FCU-1.1 R/R'S",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "110",
-        "walls_info": [],
-        "roof": "",
-        "floor": "110.0"
-    },
-    {
-        "title": "FCU-1.2 BIKE",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "315",
-        "walls_info": [],
-        "roof": "",
-        "floor": "315.0"
-    },
-    {
-        "title": "FCU-1.2 CORRIDOR",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "765",
-        "walls_info": [
-            [
-                180,
-                0,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": "765.0"
-    },
-    {
-        "title": "FCU-1.2 ELEV LOBBY",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "175",
-        "walls_info": [],
-        "roof": "",
-        "floor": "175.0"
-    },
-    {
-        "title": "FCU-1.2 PET WASH",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "230",
-        "walls_info": [],
-        "roof": "",
-        "floor": "230.0"
-    },
-    {
-        "title": "FCU-1.3, 1.4 CORRIDOR",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "220",
-        "walls_info": [
-            [
-                110,
-                0,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": "220.0"
-    },
-    {
-        "title": "FCU-1.3, 1.4 RETAIL",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "6070",
-        "walls_info": [
-            [
-                90,
-                0,
+                69,
                 0,
                 0
             ],
             [
-                1770,
-                1140,
+                234,
                 0,
-                0
-            ],
-            [
-                170,
-                84,
                 0,
-                0
+                1
             ]
         ],
-        "roof": "",
-        "floor": "6070.0"
+        "roof": "104.0",
+        "floor": "104.0"
     },
     {
-        "title": "FCU-1.5, 1.6 RETAIL",
+        "title": "Fitness/  Yoga (fix N/S)",
         "building_choice_text": "NONE",
         "building_choice_index": "NONE",
-        "floor_area": "3590",
+        "floor_area": "1102",
         "walls_info": [
             [
-                920,
-                570,
+                326,
+                162,
                 0,
                 0
             ],
             [
-                1520,
-                950,
+                458,
+                194,
                 0,
                 0
             ],
             [
-                830,
                 350,
                 0,
+                0,
                 0
             ]
         ],
-        "roof": "",
-        "floor": "3590.0"
+        "roof": "1102.0",
+        "floor": "1102.0"
     },
     {
-        "title": "FCU-6.4 CHEF KITCHEN",
+        "title": "Great Room (north)",
         "building_choice_text": "NONE",
         "building_choice_index": "NONE",
-        "floor_area": "1590",
+        "floor_area": "1417",
         "walls_info": [
             [
-                460,
-                290,
+                557,
+                261,
+                0,
+                0
+            ]
+        ],
+        "roof": "1417.0",
+        "floor": "1417.0"
+    },
+    {
+        "title": "Great room (South)",
+        "building_choice_text": "NONE",
+        "building_choice_index": "NONE",
+        "floor_area": "2237",
+        "walls_info": [
+            [
+                1053,
+                588,
+                0,
+                0
+            ]
+        ],
+        "roof": "2237.0",
+        "floor": "2237.0"
+    },
+    {
+        "title": "Makers space hallway",
+        "building_choice_text": "NONE",
+        "building_choice_index": "NONE",
+        "floor_area": "242",
+        "walls_info": [
+            [
+                96,
+                0,
+                0,
+                1
+            ]
+        ],
+        "roof": "242.0",
+        "floor": "242.0"
+    },
+    {
+        "title": "Makers Space/ Game room",
+        "building_choice_text": "NONE",
+        "building_choice_index": "NONE",
+        "floor_area": "700",
+        "walls_info": [
+            [
+                147,
+                69,
                 0,
                 0
             ],
             [
-                540,
-                400,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": ""
-    },
-    {
-        "title": "FCU-6.5 CORRIDOR",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "180",
-        "walls_info": [
-            [
-                140,
-                85,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": ""
-    },
-    {
-        "title": "FCU-6.5 RR'S",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "460",
-        "walls_info": [
-            [
-                180,
-                0,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": ""
-    },
-    {
-        "title": "FCU-6.5 YOGA",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "315",
-        "walls_info": [
-            [
-                40,
-                0,
+                458,
+                200,
                 0,
                 0
             ],
             [
-                40,
+                348,
                 0,
-                0,
-                0
-            ],
-            [
-                120,
-                36,
                 0,
                 0
             ]
         ],
-        "roof": "",
-        "floor": ""
+        "roof": "700.0",
+        "floor": "700.0"
     },
     {
-        "title": "FCU-6.6 FITNESS",
+        "title": "Managers Office",
         "building_choice_text": "NONE",
         "building_choice_index": "NONE",
-        "floor_area": "970",
+        "floor_area": "159",
         "walls_info": [
-            [
-                40,
-                0,
-                0,
-                0
-            ],
-            [
-                400,
-                180,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": ""
-    },
-    {
-        "title": "FCU-6.7 GOLF SIM",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "345",
-        "walls_info": [
-            [
-                30,
-                0,
-                0,
-                0
-            ],
             [
                 160,
-                36,
+                45,
                 0,
                 0
             ]
         ],
-        "roof": "",
-        "floor": ""
+        "roof": "159.0",
+        "floor": "159.0"
     },
     {
-        "title": "FCU-6.8 CO-WORKER",
+        "title": "Media/ Music",
         "building_choice_text": "NONE",
         "building_choice_index": "NONE",
-        "floor_area": "910",
+        "floor_area": "396",
         "walls_info": [
             [
-                40,
+                178,
                 0,
                 0,
                 0
             ],
             [
-                360,
-                175,
-                0,
-                0
-            ],
-            [
-                40,
-                0,
+                421,
+                169,
                 0,
                 0
             ]
         ],
-        "roof": "",
-        "floor": ""
+        "roof": "396.0",
+        "floor": "396.0"
     },
     {
-        "title": "FCU-6.9 CONF RM",
+        "title": "Media/ Music Hallway",
         "building_choice_text": "NONE",
         "building_choice_index": "NONE",
-        "floor_area": "360",
+        "floor_area": "131",
         "walls_info": [
             [
-                340,
-                220,
+                96,
                 0,
-                0
-            ],
-            [
-                160,
-                75,
                 0,
-                0
+                1
             ]
         ],
-        "roof": "",
-        "floor": ""
+        "roof": "131.0",
+        "floor": "131.0"
     },
     {
-        "title": "Unit A1",
+        "title": "Mens/Womens RR",
         "building_choice_text": "NONE",
         "building_choice_index": "NONE",
-        "floor_area": "615",
+        "floor_area": "508",
         "walls_info": [
             [
-                220,
-                110,
-                0,
-                0
-            ],
-            [
-                30,
+                387,
                 0,
                 0,
-                0
+                1
             ]
         ],
-        "roof": "",
-        "floor": ""
+        "roof": "508.0",
+        "floor": "508.0"
     },
     {
-        "title": "Unit A1 Roof",
+        "title": "Office",
         "building_choice_text": "NONE",
         "building_choice_index": "NONE",
-        "floor_area": "615",
-        "walls_info": [
-            [
-                220,
-                110,
-                0,
-                0
-            ],
-            [
-                30,
-                0,
-                0,
-                0
-            ]
-        ],
-        "roof": "615.0",
-        "floor": ""
+        "floor_area": "158",
+        "walls_info": [],
+        "roof": "158.0",
+        "floor": "158.0"
     },
     {
-        "title": "Unit A2",
+        "title": "Package Room",
         "building_choice_text": "NONE",
         "building_choice_index": "NONE",
-        "floor_area": "720",
-        "walls_info": [
-            [
-                280,
-                200,
-                0,
-                0
-            ],
-            [
-                245,
-                190,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": ""
+        "floor_area": "182",
+        "walls_info": [],
+        "roof": "182.0",
+        "floor": "182.0"
     },
     {
-        "title": "Unit A2 Roof",
+        "title": "Pub",
         "building_choice_text": "NONE",
         "building_choice_index": "NONE",
-        "floor_area": "720",
+        "floor_area": "295",
         "walls_info": [
             [
-                280,
-                200,
-                0,
-                0
-            ],
-            [
-                245,
-                190,
+                457,
+                194,
                 0,
                 0
             ]
         ],
-        "roof": "720.0",
-        "floor": ""
+        "roof": "295.0",
+        "floor": "295.0"
     },
     {
-        "title": "Unit A3",
+        "title": "Shared Work",
         "building_choice_text": "NONE",
         "building_choice_index": "NONE",
-        "floor_area": "830",
+        "floor_area": "426",
         "walls_info": [
             [
-                270,
-                200,
-                0,
-                0
-            ],
-            [
-                120,
-                110,
+                426,
+                169,
                 0,
                 0
             ]
         ],
-        "roof": "",
-        "floor": ""
+        "roof": "426.0",
+        "floor": "426.0"
     },
     {
-        "title": "Unit A4",
+        "title": "Storage",
         "building_choice_text": "NONE",
         "building_choice_index": "NONE",
-        "floor_area": "660",
-        "walls_info": [
-            [
-                200,
-                165,
-                0,
-                0
-            ],
-            [
-                75,
-                0,
-                0,
-                0
-            ],
-            [
-                235,
-                0,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": "660.0"
-    },
-    {
-        "title": "Unit A5",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "785",
-        "walls_info": [
-            [
-                445,
-                145,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": ""
-    },
-    {
-        "title": "Unit A5 Roof",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "785",
-        "walls_info": [
-            [
-                445,
-                145,
-                0,
-                0
-            ]
-        ],
-        "roof": "785.0",
-        "floor": ""
-    },
-    {
-        "title": "Unit B1",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "1030",
-        "walls_info": [
-            [
-                345,
-                190,
-                0,
-                0
-            ],
-            [
-                290,
-                245,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": ""
-    },
-    {
-        "title": "Unit B1 Roof",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "1030",
-        "walls_info": [
-            [
-                345,
-                190,
-                0,
-                0
-            ],
-            [
-                290,
-                245,
-                0,
-                0
-            ]
-        ],
-        "roof": "1030.0",
-        "floor": ""
-    },
-    {
-        "title": "Unit B2",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "1065",
-        "walls_info": [
-            [
-                290,
-                220,
-                0,
-                0
-            ],
-            [
-                370,
-                180,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": ""
-    },
-    {
-        "title": "Unit B2 Roof",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "1065",
-        "walls_info": [
-            [
-                290,
-                220,
-                0,
-                0
-            ],
-            [
-                370,
-                180,
-                0,
-                0
-            ]
-        ],
-        "roof": "1065.0",
-        "floor": ""
-    },
-    {
-        "title": "Unit B3",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "795",
-        "walls_info": [
-            [
-                310,
-                165,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": "795.0"
-    },
-    {
-        "title": "Unit S1",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "400",
-        "walls_info": [
-            [
-                145,
-                110,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": "400.0"
-    },
-    {
-        "title": "Unit S1 Roof",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "400",
-        "walls_info": [
-            [
-                145,
-                110,
-                0,
-                0
-            ]
-        ],
-        "roof": "400.0",
-        "floor": "400.0"
-    },
-    {
-        "title": "Unit S2",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "550",
-        "walls_info": [
-            [
-                190,
-                127,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": "400.0"
-    },
-    {
-        "title": "Unit S2 Roof",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "550",
-        "walls_info": [
-            [
-                190,
-                127,
-                0,
-                0
-            ]
-        ],
-        "roof": "550.0",
-        "floor": "400.0"
-    },
-    {
-        "title": "Unit S3",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "535",
-        "walls_info": [
-            [
-                175,
-                110,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": "400.0"
-    },
-    {
-        "title": "Unit S4",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "475",
-        "walls_info": [
-            [
-                245,
-                175,
-                0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": "400.0"
-    },
-    {
-        "title": "Unit S4 Roof",
-        "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
-        "floor_area": "475",
-        "walls_info": [
-            [
-                245,
-                175,
-                0,
-                0
-            ]
-        ],
-        "roof": "475.0",
-        "floor": ""
+        "floor_area": "75",
+        "walls_info": [],
+        "roof": "75.0",
+        "floor": "75.0"
     }
 ]

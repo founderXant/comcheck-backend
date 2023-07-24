@@ -54,11 +54,21 @@ input_data = read_data(FILENAME)
 class BuildingAreaViewSet(viewsets.GenericViewSet):
     serializer_class = BuildingAreaSerializer
     queryset = []
+    
+    def get_input_data(self):
+        FILENAME = f'{PDF_SCRAPED_FILE}'
+        return read_data(FILENAME)
 
     def list(self, request, *args, **kwargs):
+        input_data = self.get_input_data()
+                
         output_data = []
         for item in input_data:
-            output_data.append({'title': item['title'], 'choice': item['building_choice_index']})
+            output_data.append({
+                'title': item['title'],
+                'choice': item['building_choice_index']
+            })
+        self.queryset = output_data
         return Response(output_data, status=status.HTTP_200_OK)
 
     def patch(self, request, *args, **kwargs):
@@ -68,10 +78,13 @@ class BuildingAreaViewSet(viewsets.GenericViewSet):
         if not title or 'choice' not in request.data:
             return Response({'status': 'error', 'message': 'Invalid data provided'}, status=status.HTTP_400_BAD_REQUEST)
 
+        input_data = self.get_input_data()
+
         for item in input_data:
             if item['title'] == title:
                 item['building_choice_index'] = choice
 
+        self.queryset = input_data
         save_data(input_data, FILENAME)
 
         return Response({'status': 'success', 'message': 'Building area updated successfully'}, status=status.HTTP_200_OK)
