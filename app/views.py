@@ -28,7 +28,7 @@ class ScrapePDFViewSet(viewsets.ModelViewSet):
             print(file_path)
             
             output_filename =f'{PDF_SCRAPED_FILE}'
-            pdfs_folder ='pdfs'
+            pdfs_folder ='media/pdfs'
             input_filename = os.path.basename(file_path)  
                       
             space_input_filename = os.path.join(pdfs_folder, input_filename)     
