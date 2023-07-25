@@ -11,6 +11,8 @@ import xml.etree.ElementTree as ET
 from comcheck.utils import XMLGenerator
 from rest_framework.views import APIView
 from django.http import FileResponse
+from django.http import HttpResponse
+
 
 
 
@@ -214,8 +216,6 @@ class GenerateXMLView(APIView):
 
             building_list.append(building)
             
-            
-            
         # Remove the namespace prefix from the tag
         for elem in root.iter():
             if '}' in elem.tag:
@@ -235,13 +235,11 @@ class GenerateXMLView(APIView):
         
         file_path = f'{XML_OUTPUT_FILE}'
         with open(file_path, 'rb') as xml_file:
-            response = FileResponse(xml_file)
-            response['Content-Type'] = 'application/xml'
-            response['Content-Disposition'] = f'attachment; filename="{os.path.basename(file_path)}"'
+            response = HttpResponse(xml_file.read(), content_type='application/xml')
+            response['Content-Disposition'] = f'attachment; filename={XML_OUTPUT_FILE}'
+        return response
 
-        print(f'output save in {XML_OUTPUT_FILE}')
-                        
-        return Response({'message': f'XML file generated and saved in {XML_OUTPUT_FILE}'})
+        
         
             
         
