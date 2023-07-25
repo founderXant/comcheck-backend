@@ -2,7 +2,7 @@
     {
         "title": "FCU-1.1 CORRIDOR",
         "building_choice_text": "NONE",
-        "building_choice_index": "NONE",
+        "building_choice_index": 3434,
         "floor_area": "300",
         "walls_info": [
             [

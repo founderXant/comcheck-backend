@@ -65,6 +65,10 @@ class BuildingAreaViewSet(viewsets.GenericViewSet):
     def get_input_data(self):
         FILENAME = f'{PDF_SCRAPED_FILE}'
         return read_data(FILENAME)
+    
+    def write_data(self, data):
+        with open(FILENAME, 'w') as json_file:
+            json.dump(data, json_file)
 
     def list(self, request, *args, **kwargs):
         input_data = self.get_input_data()
@@ -78,23 +82,28 @@ class BuildingAreaViewSet(viewsets.GenericViewSet):
         self.queryset = output_data
         return Response(output_data, status=status.HTTP_200_OK)
 
-    def patch(self, request, *args, **kwargs):
-        title = request.data.get('title')
-        choice = request.data.get('choice')
+    def update_choice(self, request, *args, **kwargs):
+        
+        title_to_update = request.data.get('title')
+        new_choice = request.data.get('choice')
 
-        if not title or 'choice' not in request.data:
-            return Response({'status': 'error', 'message': 'Invalid data provided'}, status=status.HTTP_400_BAD_REQUEST)
+        if title_to_update is None or new_choice is None:
+            return Response({'error': 'Invalid data. "title" and "new_choice" are required.'},
+                            status=status.HTTP_400_BAD_REQUEST)
 
         input_data = self.get_input_data()
-
+        
         for item in input_data:
-            if item['title'] == title:
-                item['building_choice_index'] = choice
+            if item['title'] == title_to_update:
+                item['building_choice_index'] = new_choice
+                
+            self.queryset = input_data
+            save_data(input_data, FILENAME)
+            return Response({'status': 'success', 'message': 'Building choice updated successfully'}, status=status.HTTP_200_OK)
 
-        self.queryset = input_data
-        save_data(input_data, FILENAME)
+        return Response({'error': 'Title not found.'}, status=status.HTTP_404_NOT_FOUND) 
 
-        return Response({'status': 'success', 'message': 'Building area updated successfully'}, status=status.HTTP_200_OK)
+    
     
 class UserInputsViewSet (viewsets.ModelViewSet):
     serializer_class = UserInputsSerializer
