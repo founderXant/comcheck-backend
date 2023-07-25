@@ -84,24 +84,28 @@ class BuildingAreaViewSet(viewsets.GenericViewSet):
 
     def update_choice(self, request, *args, **kwargs):
         
-        title_to_update = request.data.get('title')
-        new_choice = request.data.get('choice')
-
-        if title_to_update is None or new_choice is None:
-            return Response({'error': 'Invalid data. "title" and "new_choice" are required.'},
+        updated_data = request.data
+        if not isinstance(updated_data, list) or not all(isinstance(item, dict) for item in updated_data):
+            return Response({'error': 'Invalid data format. Expected a list of dictionaries.'},
                             status=status.HTTP_400_BAD_REQUEST)
-
+        
         input_data = self.get_input_data()
         
-        for item in input_data:
-            if item['title'] == title_to_update:
-                item['building_choice_index'] = new_choice
-                
-            self.queryset = input_data
-            save_data(input_data, FILENAME)
-            return Response({'status': 'success', 'message': 'Building choice updated successfully'}, status=status.HTTP_200_OK)
-
-        return Response({'error': 'Title not found.'}, status=status.HTTP_404_NOT_FOUND) 
+        for item in updated_data:
+            title = item.get('title')
+            choice = item.get('choice')
+            if title is None or choice is None:
+                return Response({'error': 'Invalid data. "title" and "choice" are required.'},
+                                status=status.HTTP_400_BAD_REQUEST)
+            for item in input_data:
+                if item['title'] == title:
+                    item['building_choice_index'] = choice
+        self.queryset = input_data
+        save_data(input_data, FILENAME)
+                    
+                    
+        return Response({'status': 'success', 'message': 'Building choice updated successfully'}, status=status.HTTP_200_OK)
+        
 
     
     
@@ -120,7 +124,7 @@ class UserInputsViewSet (viewsets.ModelViewSet):
         data["options_doors"] = "Options for doors, A, B, C"
         
         save_data(data, USER_INPUT_FILE)
-        return Response({'status': 'success', 'message': 'User inputs saved successfully'}, status=status.HTTP_201_CREATED)
+        return Response({'status': 'success', 'message': '  User inputs saved successfully'}, status=status.HTTP_201_CREATED)
     
 class GenerateXMLView(APIView):
     def get(self, request):
