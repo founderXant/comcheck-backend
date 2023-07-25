@@ -158,7 +158,7 @@ class GenerateXMLView(APIView):
         is_swinging_door = user_input['is_swinging_door']
 
         window1_area = user_input['window_area'][0]
-        window2_area = user_input['window_area'][1]
+        window2_area = 1
 
         floor_r_values = user_input['r-values']['floor']
         roof_r_values = user_input['r-values']['roof']
@@ -167,7 +167,7 @@ class GenerateXMLView(APIView):
         
         xml_generator = XMLGenerator()
         for building_info in scraped_json:
-            building_index = 1
+            building_index = building_info['building_choice_index']-1
             building_description = building_info['title']
             building_floor_area = building_info['floor_area']
             building_wall_list = building_info['walls_info']
