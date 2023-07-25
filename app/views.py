@@ -160,7 +160,9 @@ class GenerateXMLView(APIView):
         is_swinging_door = user_input['is_swinging_door']
 
         window1_area = user_input['window_area'][0]
-        window2_area = 1
+        window2_area = user_input['window_area'][1]
+        print (user_input)
+        print (window2_area)
 
         floor_r_values = user_input['r-values']['floor']
         roof_r_values = user_input['r-values']['roof']
