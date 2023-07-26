@@ -164,10 +164,10 @@ class GenerateXMLView(APIView):
         print (user_input)
         print (window2_area)
 
-        floor_r_values = user_input['r-values']['floor']
-        roof_r_values = user_input['r-values']['roof']
-        wall_r_values = user_input['r-values']['ext_wall']
-        window_r_values = user_input['r-values']['window']
+        floor_r_values = user_input['r_values']['floor']
+        roof_r_values = user_input['r_values']['roof']
+        wall_r_values = user_input['r_values']['ext_wall']
+        window_r_values = user_input['r_values']['window']
         
         xml_generator = XMLGenerator()
         for building_info in scraped_json:

@@ -1,8 +1,8 @@
 {
-    "is_residential": false,
+    "is_residential": true,
     "radio_btns": {
         "floor": 1,
-        "roof": 3,
+        "roof": 2,
         "ext_wall": 1,
         "window_col1": 1,
         "window_col2": 2,
@@ -13,7 +13,7 @@
         6,
         10
     ],
-    "r-values": {
+    "r_values": {
         "floor": [
             25,
             30
