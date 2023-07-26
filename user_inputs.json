@@ -1,12 +1,12 @@
 {
     "is_residential": true,
     "radio_btns": {
-        "floor": 1,
+        "floor": 2,
         "roof": 2,
-        "ext_wall": 1,
-        "window_col1": 1,
+        "ext_wall": 2,
+        "window_col1": 2,
         "window_col2": 2,
-        "door": 1
+        "door": 2
     },
     "is_swinging_door": true,
     "window_area": [
