@@ -10,8 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
-from pathlib import Path
 import os
+from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
 ]
-
 
 
 MIDDLEWARE = [
@@ -120,8 +119,8 @@ USE_L10N = True
 
 USE_TZ = True
 
-CORS_ORIGIN_ALLOW_ALL = True   
- 
+CORS_ORIGIN_ALLOW_ALL = True
+
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOW_METHODS = [
@@ -159,10 +158,3 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-FILES_FOLDER = 'files'
-PDF_SCRAPED_FILE = 'scraped_output.json'
-USER_INPUT_FILE = 'user_inputs.json'
-STARTING_XML_FILE = 'empty.cxl'
-XML_ELEMENTS_INFO_FILE = 'elements_info.json'
-XML_OUTPUT_FILE = 'xml_output.cxl'

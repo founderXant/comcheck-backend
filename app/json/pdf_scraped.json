@@ -1,0 +1,154 @@
+[
+    {
+        "title": "Break room",
+        "building_choice_text": "NONE",
+        "building_choice_index": 1,
+        "floor_area": "140",
+        "walls_info": [],
+        "roof": "",
+        "floor": "140.0",
+        "orientation": ""
+    },
+    {
+        "title": "Office space",
+        "building_choice_text": "NONE",
+        "building_choice_index": 1,
+        "floor_area": "1002",
+        "walls_info": [
+            [
+                "SOUTH",
+                412,
+                177,
+                0,
+                0
+            ],
+            [
+                "WEST",
+                412,
+                120,
+                0,
+                0
+            ]
+        ],
+        "roof": "",
+        "floor": "1002.0",
+        "orientation": ""
+    },
+    {
+        "title": "Storage floor 1",
+        "building_choice_text": "NONE",
+        "building_choice_index": 1,
+        "floor_area": "34892",
+        "walls_info": [
+            [
+                "NORTH",
+                2412,
+                0,
+                0,
+                0
+            ],
+            [
+                "EAST",
+                2500,
+                0,
+                0,
+                0
+            ],
+            [
+                "SOUTH",
+                2000,
+                0,
+                0,
+                0
+            ],
+            [
+                "WEST",
+                1912,
+                0,
+                0,
+                0
+            ]
+        ],
+        "roof": "",
+        "floor": "34892.0",
+        "orientation": ""
+    },
+    {
+        "title": "Storage Space 2",
+        "building_choice_text": "NONE",
+        "building_choice_index": 1,
+        "floor_area": "38330",
+        "walls_info": [
+            [
+                "NORTH",
+                1996,
+                160,
+                0,
+                0
+            ],
+            [
+                "EAST",
+                2100,
+                0,
+                0,
+                0
+            ],
+            [
+                "SOUTH",
+                2026,
+                160,
+                0,
+                0
+            ],
+            [
+                "WEST",
+                2131,
+                320,
+                0,
+                0
+            ]
+        ],
+        "roof": "",
+        "floor": "",
+        "orientation": ""
+    },
+    {
+        "title": "Storage Space 3",
+        "building_choice_text": "NONE",
+        "building_choice_index": 1,
+        "floor_area": "38330",
+        "walls_info": [
+            [
+                "NORTH",
+                1996,
+                160,
+                0,
+                0
+            ],
+            [
+                "EAST",
+                2100,
+                0,
+                0,
+                0
+            ],
+            [
+                "SOUTH",
+                2026,
+                160,
+                0,
+                0
+            ],
+            [
+                "WEST",
+                2131,
+                320,
+                0,
+                0
+            ]
+        ],
+        "roof": "38330.0",
+        "floor": "",
+        "orientation": ""
+    }
+]

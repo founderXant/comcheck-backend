@@ -9,7 +9,7 @@ from app.constants import *
 from app.models import PDFDocument
 
 
-class PDFScraper:
+class PDFScraper_2018:
 
     @staticmethod
     def read_space_input(filename):
@@ -190,9 +190,10 @@ class PDFScraper:
 
     @staticmethod
     def main(space_input_filename, output_filename):
-        space_input_text = PDFScraper.read_space_input(space_input_filename)
+        space_input_text = PDFScraper_2018.read_space_input(
+            space_input_filename)
 
-        input_info = PDFScraper.scrape_space_input(space_input_text)
+        input_info = PDFScraper_2018.scrape_space_input(space_input_text)
 
         with open(output_filename, mode='w') as f:
             json.dump(input_info, f, indent=4)
@@ -200,7 +201,7 @@ class PDFScraper:
         print(f'Scraped information saved in: {output_filename}')
 
 
-class XMLGenerator:
+class XMLGenerator_2018:
     def __init__(self):
         with open(f'{XML_ELEMENTS_INFO_FILE}', mode='r') as f:
             self.elements_info = json.load(f)
@@ -215,7 +216,6 @@ class XMLGenerator:
     def get_building_xml(self, building_index, description, is_residential, floor_area) -> Element:
 
         building = self.building_list[building_index]
-
         building_name = building['name']
         power_density = building['power_density']
         internal_load = building['internal_load']
@@ -319,8 +319,6 @@ class XMLGenerator:
         contains_continuous_r_value = wall_info['contains_continuous_r_value']
         contains_cavity_r_value = wall_info['contains_cavity_r_value']
 
-        last_document = PDFDocument.objects.last()
-
         wall_xml = f'''
                 <agWall>
                     <wallType>{wall_name}</wallType>
@@ -330,7 +328,7 @@ class XMLGenerator:
                     <bldgUseKey>{building_key}</bldgUseKey>
                     {'<cavityRvalue>' + str(cavity_r_value) + '</cavityRvalue>' if contains_cavity_r_value else ''}
                     {'<continuousRvalue>' + str(continuous_r_value) + '</continuousRvalue>' if contains_continuous_r_value else ''}
-                    {'<orientation>' + wall_orientation + '</orientation>' if last_document.standard == '2018' else ''}
+                    <orientation>{wall_orientation}</orientation>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                     <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
                     <validAllowanceType>false</validAllowanceType>

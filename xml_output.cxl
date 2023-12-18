@@ -8,7 +8,7 @@
     <isSemiheatedConditioning>false</isSemiheatedConditioning>
     <conditioning>HEATING_AND_COOLING</conditioning>
     <control>
-        <code>CEZ_IECC2009</code>
+        <code>CEZ_IECC2018</code>
         <complianceMode>UA</complianceMode>
         <version>24.1.6</version>
     </control>
@@ -20,605 +20,29 @@
         <projectComplete>false</projectComplete>
     </project>
     <envelope>
-        <useOrientDetails>false</useOrientDetails>
+        <useOrientDetails>true</useOrientDetails>
         <useVltDetails>false</useVltDetails>
         <useCoolRoofPerformanceDetails>false</useCoolRoofPerformanceDetails>
-        <roofs>
-        <roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>3239740</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>158.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>5456273</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>104.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>9403436</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>1102.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>7580259</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>1417.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>7921548</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>2237.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>9194828</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>242.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>1285685</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>700.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>5232059</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>159.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>2945645</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>396.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>8445713</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>131.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>3372154</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>508.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>6793853</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>158.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>8822081</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>182.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>5808064</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>295.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>5496764</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>426.0</grossArea>
-                    </roof><roof>
-                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
-                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
-                        <description>Metal Building, Standing Seam</description>
-                        <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>3725884</bldgUseKey>
-                        <cavityRvalue>35</cavityRvalue>
-                        <continuousRvalue>40</continuousRvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>NON_RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>75.0</grossArea>
-                    </roof></roofs>
-        <floors>
-        <floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>3239740</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>158.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>5456273</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>104.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>9403436</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>1102.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>7580259</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>1417.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>7921548</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>2237.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>9194828</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>242.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>1285685</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>700.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>5232059</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>159.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>2945645</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>396.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>8445713</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>131.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>3372154</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>508.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>6793853</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>158.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>8822081</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>182.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>5808064</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>295.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>5496764</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>426.0</grossArea>
-                </floor><floor>
-                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
-
-                    
-
-                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
-
-                    <description>Steel Joist</description>
-                    <assemblyType>Floor</assemblyType>
-                    <bldgUseKey>3725884</bldgUseKey>
-
-                    <cavityRvalue>25</cavityRvalue>
-                    <continuousRvalue>30</continuousRvalue>
-
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>75.0</grossArea>
-                </floor></floors>
+        <airBarrierComplianceType>AIR_BARRIER_OPTION_UNKNOWN</airBarrierComplianceType>
+        <applyWindowPctAllowanceForDaylighting>false</applyWindowPctAllowanceForDaylighting>
+        <applySkylightPctAllowanceForDaylighting>false</applySkylightPctAllowanceForDaylighting>
         <aboveGroundWalls>
         <agWall>
                     <wallType>WOOD_FRAME_24_AG_WALL</wallType>
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 24in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>3239740</bldgUseKey>
+                    <bldgUseKey>7412441</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
+                    <orientation>SOUTH</orientation>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                     <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
                     <validAllowanceType>false</validAllowanceType>
                     <validExemptionType>false</validExemptionType>
                     <constructionType>NON_RESIDENTIAL</constructionType>
                     <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>160</grossArea>
+                    <grossArea>412</grossArea>
                     <windows><window>
                 <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
                 <glazingType>SINGLE_PANE</glazingType>
@@ -633,7 +57,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame w/ Thermal Break</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>3239740</bldgUseKey>
+                <bldgUseKey>7412441</bldgUseKey>
                 <propUvalue>1.1</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -641,7 +65,7 @@
                 <validExemptionType>false</validExemptionType>
                 <constructionType>RESIDENTIAL</constructionType>
                 <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>270</grossArea>
+                <grossArea>10620</grossArea>
             </window></windows>
                     <doors />
                 </agWall><agWall>
@@ -649,16 +73,17 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 24in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>5456273</bldgUseKey>
+                    <bldgUseKey>7412441</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
+                    <orientation>WEST</orientation>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                     <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
                     <validAllowanceType>false</validAllowanceType>
                     <validExemptionType>false</validExemptionType>
                     <constructionType>NON_RESIDENTIAL</constructionType>
                     <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>150</grossArea>
+                    <grossArea>412</grossArea>
                     <windows><window>
                 <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
                 <glazingType>SINGLE_PANE</glazingType>
@@ -673,7 +98,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame w/ Thermal Break</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>5456273</bldgUseKey>
+                <bldgUseKey>7412441</bldgUseKey>
                 <propUvalue>1.1</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -681,7 +106,7 @@
                 <validExemptionType>false</validExemptionType>
                 <constructionType>RESIDENTIAL</constructionType>
                 <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>414</grossArea>
+                <grossArea>7200</grossArea>
             </window></windows>
                     <doors />
                 </agWall><agWall>
@@ -689,127 +114,17 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 24in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>5456273</bldgUseKey>
+                    <bldgUseKey>8818586</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
+                    <orientation>NORTH</orientation>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                     <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
                     <validAllowanceType>false</validAllowanceType>
                     <validExemptionType>false</validExemptionType>
                     <constructionType>NON_RESIDENTIAL</constructionType>
                     <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>234</grossArea>
-                    <windows />
-                    <doors><door>
-                        <doorType>NO_INSUL_DOUBLE_METAL_DOOR</doorType>
-                        <doorOpenType>SWINGING_DOOR</doorOpenType>
-                        <description>Uninsulated Double-Layer Metal</description>
-                        <assemblyType>Door</assemblyType>
-                        <bldgUseKey>5456273</bldgUseKey>
-                        <propUvalue>0.000000</propUvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>1</grossArea>
-                    </door></doors>
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9403436</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>326</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>9403436</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>972</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9403436</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>458</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>9403436</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>1164</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9403436</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>350</grossArea>
+                    <grossArea>2412</grossArea>
                     <windows />
                     <doors />
                 </agWall><agWall>
@@ -817,207 +132,17 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 24in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>7580259</bldgUseKey>
+                    <bldgUseKey>8818586</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
+                    <orientation>EAST</orientation>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                     <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
                     <validAllowanceType>false</validAllowanceType>
                     <validExemptionType>false</validExemptionType>
                     <constructionType>NON_RESIDENTIAL</constructionType>
                     <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>557</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>7580259</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>1566</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>7921548</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>1053</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>7921548</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>3528</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>9194828</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>96</grossArea>
-                    <windows />
-                    <doors><door>
-                        <doorType>NO_INSUL_DOUBLE_METAL_DOOR</doorType>
-                        <doorOpenType>SWINGING_DOOR</doorOpenType>
-                        <description>Uninsulated Double-Layer Metal</description>
-                        <assemblyType>Door</assemblyType>
-                        <bldgUseKey>9194828</bldgUseKey>
-                        <propUvalue>0.000000</propUvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>1</grossArea>
-                    </door></doors>
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1285685</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>147</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>1285685</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>414</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1285685</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>458</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>1285685</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>1200</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1285685</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>348</grossArea>
+                    <grossArea>2500</grossArea>
                     <windows />
                     <doors />
                 </agWall><agWall>
@@ -1025,56 +150,17 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 24in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>5232059</bldgUseKey>
+                    <bldgUseKey>8818586</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
+                    <orientation>SOUTH</orientation>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                     <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
                     <validAllowanceType>false</validAllowanceType>
                     <validExemptionType>false</validExemptionType>
                     <constructionType>NON_RESIDENTIAL</constructionType>
                     <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>160</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>5232059</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>270</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>2945645</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>178</grossArea>
+                    <grossArea>2000</grossArea>
                     <windows />
                     <doors />
                 </agWall><agWall>
@@ -1082,16 +168,35 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 24in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>2945645</bldgUseKey>
+                    <bldgUseKey>8818586</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
+                    <orientation>WEST</orientation>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                     <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
                     <validAllowanceType>false</validAllowanceType>
                     <validExemptionType>false</validExemptionType>
                     <constructionType>NON_RESIDENTIAL</constructionType>
                     <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>421</grossArea>
+                    <grossArea>1912</grossArea>
+                    <windows />
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>4404960</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <orientation>NORTH</orientation>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>1996</grossArea>
                     <windows><window>
                 <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
                 <glazingType>SINGLE_PANE</glazingType>
@@ -1106,7 +211,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame w/ Thermal Break</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>2945645</bldgUseKey>
+                <bldgUseKey>4404960</bldgUseKey>
                 <propUvalue>1.1</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1114,7 +219,7 @@
                 <validExemptionType>false</validExemptionType>
                 <constructionType>RESIDENTIAL</constructionType>
                 <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>1014</grossArea>
+                <grossArea>9600</grossArea>
             </window></windows>
                     <doors />
                 </agWall><agWall>
@@ -1122,78 +227,35 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 24in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8445713</bldgUseKey>
+                    <bldgUseKey>4404960</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
+                    <orientation>EAST</orientation>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                     <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
                     <validAllowanceType>false</validAllowanceType>
                     <validExemptionType>false</validExemptionType>
                     <constructionType>NON_RESIDENTIAL</constructionType>
                     <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>96</grossArea>
+                    <grossArea>2100</grossArea>
                     <windows />
-                    <doors><door>
-                        <doorType>NO_INSUL_DOUBLE_METAL_DOOR</doorType>
-                        <doorOpenType>SWINGING_DOOR</doorOpenType>
-                        <description>Uninsulated Double-Layer Metal</description>
-                        <assemblyType>Door</assemblyType>
-                        <bldgUseKey>8445713</bldgUseKey>
-                        <propUvalue>0.000000</propUvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>1</grossArea>
-                    </door></doors>
+                    <doors />
                 </agWall><agWall>
                     <wallType>WOOD_FRAME_24_AG_WALL</wallType>
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 24in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>3372154</bldgUseKey>
+                    <bldgUseKey>4404960</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
+                    <orientation>SOUTH</orientation>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                     <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
                     <validAllowanceType>false</validAllowanceType>
                     <validExemptionType>false</validExemptionType>
                     <constructionType>NON_RESIDENTIAL</constructionType>
                     <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>387</grossArea>
-                    <windows />
-                    <doors><door>
-                        <doorType>NO_INSUL_DOUBLE_METAL_DOOR</doorType>
-                        <doorOpenType>SWINGING_DOOR</doorOpenType>
-                        <description>Uninsulated Double-Layer Metal</description>
-                        <assemblyType>Door</assemblyType>
-                        <bldgUseKey>3372154</bldgUseKey>
-                        <propUvalue>0.000000</propUvalue>
-                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                        <validAllowanceType>false</validAllowanceType>
-                        <validExemptionType>false</validExemptionType>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                        <grossArea>1</grossArea>
-                    </door></doors>
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>5808064</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>457</grossArea>
+                    <grossArea>2026</grossArea>
                     <windows><window>
                 <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
                 <glazingType>SINGLE_PANE</glazingType>
@@ -1208,7 +270,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame w/ Thermal Break</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>5808064</bldgUseKey>
+                <bldgUseKey>4404960</bldgUseKey>
                 <propUvalue>1.1</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1216,7 +278,7 @@
                 <validExemptionType>false</validExemptionType>
                 <constructionType>RESIDENTIAL</constructionType>
                 <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>1164</grossArea>
+                <grossArea>9600</grossArea>
             </window></windows>
                     <doors />
                 </agWall><agWall>
@@ -1224,16 +286,17 @@
                     <nextToUncondSpace>false</nextToUncondSpace>
                     <description>Wood-Framed, 24in. o.c.</description>
                     <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>5496764</bldgUseKey>
+                    <bldgUseKey>4404960</bldgUseKey>
                     <cavityRvalue>10</cavityRvalue>
                     <continuousRvalue>15</continuousRvalue>
+                    <orientation>WEST</orientation>
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                     <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
                     <validAllowanceType>false</validAllowanceType>
                     <validExemptionType>false</validExemptionType>
                     <constructionType>NON_RESIDENTIAL</constructionType>
                     <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>426</grossArea>
+                    <grossArea>2131</grossArea>
                     <windows><window>
                 <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
                 <glazingType>SINGLE_PANE</glazingType>
@@ -1248,7 +311,7 @@
                 <listPosition>7</listPosition>
                 <description>Metal Frame w/ Thermal Break</description>
                 <assemblyType>Window</assemblyType>
-                <bldgUseKey>5496764</bldgUseKey>
+                <bldgUseKey>4404960</bldgUseKey>
                 <propUvalue>1.1</propUvalue>
                 <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                 <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
@@ -1256,40 +319,208 @@
                 <validExemptionType>false</validExemptionType>
                 <constructionType>RESIDENTIAL</constructionType>
                 <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>1014</grossArea>
+                <grossArea>19200</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>1023978</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <orientation>NORTH</orientation>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>1996</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>1023978</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>9600</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>1023978</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <orientation>EAST</orientation>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>2100</grossArea>
+                    <windows />
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>1023978</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <orientation>SOUTH</orientation>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>2026</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>1023978</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>9600</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>1023978</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <orientation>WEST</orientation>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>2131</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>1023978</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>19200</grossArea>
             </window></windows>
                     <doors />
                 </agWall></aboveGroundWalls>
+        <roofs>
+        <roof>
+                        <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
+                        <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
+                        <description>Metal Building, Standing Seam</description>
+                        <assemblyType>Roof</assemblyType>
+                        <bldgUseKey>1023978</bldgUseKey>
+                        <cavityRvalue>35</cavityRvalue>
+                        <continuousRvalue>40</continuousRvalue>
+                        <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                        <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                        <validAllowanceType>false</validAllowanceType>
+                        <validExemptionType>false</validExemptionType>
+                        <constructionType>NON_RESIDENTIAL</constructionType>
+                        <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                        <grossArea>38330.0</grossArea>
+                    </roof></roofs>
     </envelope>
     <lighting>
         <exteriorLightingZone>0</exteriorLightingZone>
         <exteriorLightingZoneType>EXT_ZONE_UNSPECIFIED</exteriorLightingZoneType>
         <wholeBldgUses>
             <wholeBldgUse>
-                <wholeBldgType>WHOLE_BUILDING_INVALID_USE</wholeBldgType>
-                <key>1504064532</key>
-                <powerDensity>0</powerDensity>
-                <internalLoad>0</internalLoad>
+                <wholeBldgType>WHOLE_BUILDING_FIRE_STATION</wholeBldgType>
+                <key>1476085916</key>
+                <powerDensity>0.53</powerDensity>
+                <internalLoad>1.95</internalLoad>
                 <ceilingHeight>0</ceilingHeight>
                 <listPosition>0</listPosition>
                 <constructionType>NON_RESIDENTIAL</constructionType>
-                <floorArea>0</floorArea>
+                <floorArea>100</floorArea>
+            </wholeBldgUse>
+            <wholeBldgUse>
+                <wholeBldgType>WHOLE_BUILDING_AUTOMOTIVE</wholeBldgType>
+                <key>1684402967</key>
+                <powerDensity>0.71</powerDensity>
+                <internalLoad>0.75</internalLoad>
+                <ceilingHeight>0</ceilingHeight>
+                <listPosition>0</listPosition>
+                <constructionType>NON_RESIDENTIAL</constructionType>
+                <floorArea>150</floorArea>
             </wholeBldgUse>
         </wholeBldgUses>
         <activityUses>
         <activityUse>
-                        <key>3239740</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Discovery room</activityDescription>
-                        <areaDescription>Discovery room</areaDescription>
-                        <powerDensity>1.2</powerDensity>
+                        <key>2777653</key>
+                        <activityType>ACTIVITY_AUTO_REPAIR</activityType>
+                        <activityDescription>Break room</activityDescription>
+                        <areaDescription>Break room</areaDescription>
+                        <powerDensity>0.9</powerDensity>
                         <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
+                        <internalLoad>1.74</internalLoad>
                         <listPosition>0</listPosition>
                         <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>158</floorArea>
+                        <floorArea>140</floorArea>
                         <interiorLightingSpace>
-                            <description>Discovery room, 158
+                            <description>Break room, 140
                             </description>
                             <allowanceType>ALLOWANCE_NONE</allowanceType>
                             <allowanceFloorArea>0</allowanceFloorArea>
@@ -1298,18 +529,18 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>5456273</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Dog Wash</activityDescription>
-                        <areaDescription>Dog Wash</areaDescription>
-                        <powerDensity>1.2</powerDensity>
+                        <key>7412441</key>
+                        <activityType>ACTIVITY_AUTO_REPAIR</activityType>
+                        <activityDescription>Office space</activityDescription>
+                        <areaDescription>Office space</areaDescription>
+                        <powerDensity>0.9</powerDensity>
                         <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
+                        <internalLoad>1.74</internalLoad>
                         <listPosition>0</listPosition>
                         <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>104</floorArea>
+                        <floorArea>1002</floorArea>
                         <interiorLightingSpace>
-                            <description>Dog Wash, 104
+                            <description>Office space, 1002
                             </description>
                             <allowanceType>ALLOWANCE_NONE</allowanceType>
                             <allowanceFloorArea>0</allowanceFloorArea>
@@ -1318,18 +549,18 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>9403436</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Fitness/  Yoga (fix N/S)</activityDescription>
-                        <areaDescription>Fitness/  Yoga (fix N/S)</areaDescription>
-                        <powerDensity>1.2</powerDensity>
+                        <key>8818586</key>
+                        <activityType>ACTIVITY_AUTO_REPAIR</activityType>
+                        <activityDescription>Storage floor 1</activityDescription>
+                        <areaDescription>Storage floor 1</areaDescription>
+                        <powerDensity>0.9</powerDensity>
                         <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
+                        <internalLoad>1.74</internalLoad>
                         <listPosition>0</listPosition>
                         <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>1102</floorArea>
+                        <floorArea>34892</floorArea>
                         <interiorLightingSpace>
-                            <description>Fitness/  Yoga (fix N/S), 1102
+                            <description>Storage floor 1, 34892
                             </description>
                             <allowanceType>ALLOWANCE_NONE</allowanceType>
                             <allowanceFloorArea>0</allowanceFloorArea>
@@ -1338,18 +569,18 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>7580259</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Great Room (north)</activityDescription>
-                        <areaDescription>Great Room (north)</areaDescription>
-                        <powerDensity>1.2</powerDensity>
+                        <key>4404960</key>
+                        <activityType>ACTIVITY_AUTO_REPAIR</activityType>
+                        <activityDescription>Storage Space 2</activityDescription>
+                        <areaDescription>Storage Space 2</areaDescription>
+                        <powerDensity>0.9</powerDensity>
                         <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
+                        <internalLoad>1.74</internalLoad>
                         <listPosition>0</listPosition>
                         <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>1417</floorArea>
+                        <floorArea>38330</floorArea>
                         <interiorLightingSpace>
-                            <description>Great Room (north), 1417
+                            <description>Storage Space 2, 38330
                             </description>
                             <allowanceType>ALLOWANCE_NONE</allowanceType>
                             <allowanceFloorArea>0</allowanceFloorArea>
@@ -1358,238 +589,18 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>7921548</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Great room (South)</activityDescription>
-                        <areaDescription>Great room (South)</areaDescription>
-                        <powerDensity>1.2</powerDensity>
+                        <key>1023978</key>
+                        <activityType>ACTIVITY_AUTO_REPAIR</activityType>
+                        <activityDescription>Storage Space 3</activityDescription>
+                        <areaDescription>Storage Space 3</areaDescription>
+                        <powerDensity>0.9</powerDensity>
                         <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
+                        <internalLoad>1.74</internalLoad>
                         <listPosition>0</listPosition>
                         <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>2237</floorArea>
+                        <floorArea>38330</floorArea>
                         <interiorLightingSpace>
-                            <description>Great room (South), 2237
-                            </description>
-                            <allowanceType>ALLOWANCE_NONE</allowanceType>
-                            <allowanceFloorArea>0</allowanceFloorArea>
-                            <rcrPerimeter>0</rcrPerimeter>
-                            <rcrFloorToWorkplaneHeight>0</rcrFloorToWorkplaneHeight>
-                            <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
-                        </interiorLightingSpace>
-                    </activityUse><activityUse>
-                        <key>9194828</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Makers space hallway</activityDescription>
-                        <areaDescription>Makers space hallway</areaDescription>
-                        <powerDensity>1.2</powerDensity>
-                        <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
-                        <listPosition>0</listPosition>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>242</floorArea>
-                        <interiorLightingSpace>
-                            <description>Makers space hallway, 242
-                            </description>
-                            <allowanceType>ALLOWANCE_NONE</allowanceType>
-                            <allowanceFloorArea>0</allowanceFloorArea>
-                            <rcrPerimeter>0</rcrPerimeter>
-                            <rcrFloorToWorkplaneHeight>0</rcrFloorToWorkplaneHeight>
-                            <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
-                        </interiorLightingSpace>
-                    </activityUse><activityUse>
-                        <key>1285685</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Makers Space/ Game room</activityDescription>
-                        <areaDescription>Makers Space/ Game room</areaDescription>
-                        <powerDensity>1.2</powerDensity>
-                        <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
-                        <listPosition>0</listPosition>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>700</floorArea>
-                        <interiorLightingSpace>
-                            <description>Makers Space/ Game room, 700
-                            </description>
-                            <allowanceType>ALLOWANCE_NONE</allowanceType>
-                            <allowanceFloorArea>0</allowanceFloorArea>
-                            <rcrPerimeter>0</rcrPerimeter>
-                            <rcrFloorToWorkplaneHeight>0</rcrFloorToWorkplaneHeight>
-                            <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
-                        </interiorLightingSpace>
-                    </activityUse><activityUse>
-                        <key>5232059</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Managers Office</activityDescription>
-                        <areaDescription>Managers Office</areaDescription>
-                        <powerDensity>1.2</powerDensity>
-                        <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
-                        <listPosition>0</listPosition>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>159</floorArea>
-                        <interiorLightingSpace>
-                            <description>Managers Office, 159
-                            </description>
-                            <allowanceType>ALLOWANCE_NONE</allowanceType>
-                            <allowanceFloorArea>0</allowanceFloorArea>
-                            <rcrPerimeter>0</rcrPerimeter>
-                            <rcrFloorToWorkplaneHeight>0</rcrFloorToWorkplaneHeight>
-                            <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
-                        </interiorLightingSpace>
-                    </activityUse><activityUse>
-                        <key>2945645</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Media/ Music</activityDescription>
-                        <areaDescription>Media/ Music</areaDescription>
-                        <powerDensity>1.2</powerDensity>
-                        <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
-                        <listPosition>0</listPosition>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>396</floorArea>
-                        <interiorLightingSpace>
-                            <description>Media/ Music, 396
-                            </description>
-                            <allowanceType>ALLOWANCE_NONE</allowanceType>
-                            <allowanceFloorArea>0</allowanceFloorArea>
-                            <rcrPerimeter>0</rcrPerimeter>
-                            <rcrFloorToWorkplaneHeight>0</rcrFloorToWorkplaneHeight>
-                            <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
-                        </interiorLightingSpace>
-                    </activityUse><activityUse>
-                        <key>8445713</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Media/ Music Hallway</activityDescription>
-                        <areaDescription>Media/ Music Hallway</areaDescription>
-                        <powerDensity>1.2</powerDensity>
-                        <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
-                        <listPosition>0</listPosition>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>131</floorArea>
-                        <interiorLightingSpace>
-                            <description>Media/ Music Hallway, 131
-                            </description>
-                            <allowanceType>ALLOWANCE_NONE</allowanceType>
-                            <allowanceFloorArea>0</allowanceFloorArea>
-                            <rcrPerimeter>0</rcrPerimeter>
-                            <rcrFloorToWorkplaneHeight>0</rcrFloorToWorkplaneHeight>
-                            <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
-                        </interiorLightingSpace>
-                    </activityUse><activityUse>
-                        <key>3372154</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Mens/Womens RR</activityDescription>
-                        <areaDescription>Mens/Womens RR</areaDescription>
-                        <powerDensity>1.2</powerDensity>
-                        <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
-                        <listPosition>0</listPosition>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>508</floorArea>
-                        <interiorLightingSpace>
-                            <description>Mens/Womens RR, 508
-                            </description>
-                            <allowanceType>ALLOWANCE_NONE</allowanceType>
-                            <allowanceFloorArea>0</allowanceFloorArea>
-                            <rcrPerimeter>0</rcrPerimeter>
-                            <rcrFloorToWorkplaneHeight>0</rcrFloorToWorkplaneHeight>
-                            <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
-                        </interiorLightingSpace>
-                    </activityUse><activityUse>
-                        <key>6793853</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Office</activityDescription>
-                        <areaDescription>Office</areaDescription>
-                        <powerDensity>1.2</powerDensity>
-                        <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
-                        <listPosition>0</listPosition>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>158</floorArea>
-                        <interiorLightingSpace>
-                            <description>Office, 158
-                            </description>
-                            <allowanceType>ALLOWANCE_NONE</allowanceType>
-                            <allowanceFloorArea>0</allowanceFloorArea>
-                            <rcrPerimeter>0</rcrPerimeter>
-                            <rcrFloorToWorkplaneHeight>0</rcrFloorToWorkplaneHeight>
-                            <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
-                        </interiorLightingSpace>
-                    </activityUse><activityUse>
-                        <key>8822081</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Package Room</activityDescription>
-                        <areaDescription>Package Room</areaDescription>
-                        <powerDensity>1.2</powerDensity>
-                        <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
-                        <listPosition>0</listPosition>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>182</floorArea>
-                        <interiorLightingSpace>
-                            <description>Package Room, 182
-                            </description>
-                            <allowanceType>ALLOWANCE_NONE</allowanceType>
-                            <allowanceFloorArea>0</allowanceFloorArea>
-                            <rcrPerimeter>0</rcrPerimeter>
-                            <rcrFloorToWorkplaneHeight>0</rcrFloorToWorkplaneHeight>
-                            <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
-                        </interiorLightingSpace>
-                    </activityUse><activityUse>
-                        <key>5808064</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Pub</activityDescription>
-                        <areaDescription>Pub</areaDescription>
-                        <powerDensity>1.2</powerDensity>
-                        <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
-                        <listPosition>0</listPosition>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>295</floorArea>
-                        <interiorLightingSpace>
-                            <description>Pub, 295
-                            </description>
-                            <allowanceType>ALLOWANCE_NONE</allowanceType>
-                            <allowanceFloorArea>0</allowanceFloorArea>
-                            <rcrPerimeter>0</rcrPerimeter>
-                            <rcrFloorToWorkplaneHeight>0</rcrFloorToWorkplaneHeight>
-                            <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
-                        </interiorLightingSpace>
-                    </activityUse><activityUse>
-                        <key>5496764</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Shared Work</activityDescription>
-                        <areaDescription>Shared Work</areaDescription>
-                        <powerDensity>1.2</powerDensity>
-                        <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
-                        <listPosition>0</listPosition>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>426</floorArea>
-                        <interiorLightingSpace>
-                            <description>Shared Work, 426
-                            </description>
-                            <allowanceType>ALLOWANCE_NONE</allowanceType>
-                            <allowanceFloorArea>0</allowanceFloorArea>
-                            <rcrPerimeter>0</rcrPerimeter>
-                            <rcrFloorToWorkplaneHeight>0</rcrFloorToWorkplaneHeight>
-                            <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
-                        </interiorLightingSpace>
-                    </activityUse><activityUse>
-                        <key>3725884</key>
-                        <activityType>ACTIVITY_COMMON_CONFERENCE_HALL</activityType>
-                        <activityDescription>Storage</activityDescription>
-                        <areaDescription>Storage</areaDescription>
-                        <powerDensity>1.2</powerDensity>
-                        <ceilingHeight>0</ceilingHeight>
-                        <internalLoad>2.4</internalLoad>
-                        <listPosition>0</listPosition>
-                        <constructionType>RESIDENTIAL</constructionType>
-                        <floorArea>75</floorArea>
-                        <interiorLightingSpace>
-                            <description>Storage, 75
+                            <description>Storage Space 3, 38330
                             </description>
                             <allowanceType>ALLOWANCE_NONE</allowanceType>
                             <allowanceFloorArea>0</allowanceFloorArea>
@@ -1600,7 +611,7 @@
                     </activityUse></activityUses>
         <exteriorUses>
             <exteriorUse>
-                <key>12333970</key>
+                <key>1908728485</key>
                 <exteriorType>EXTERIOR_INVALID_USE</exteriorType>
                 <powerDensity>0</powerDensity>
                 <useQuantity>0</useQuantity>
@@ -1616,4 +627,49 @@
             </exteriorUse>
         </exteriorUses>
     </lighting>
+
+    <requirements>
+        <requirementAnswer>
+            <requirement>
+                PR9_IECC2018_C_C406
+            </requirement>
+            <category>PROJECT</category>
+            <status>NOT_SATISFIED</status>
+        </requirementAnswer>
+        <requirementAnswer>
+            <requirement>
+                FI57_IECC2018_C_C408.1.1
+            </requirement>
+            <category>PROJECT</category>
+            <status>NOT_SATISFIED</status>
+        </requirementAnswer>
+        <requirementAnswer>
+            <requirement>
+                EL26_IECC2018_C_C405.6
+            </requirement>
+            <category>PROJECT</category>
+            <status>NOT_SATISFIED</status>
+        </requirementAnswer>
+        <requirementAnswer>
+            <requirement>
+                EL27_IECC2018_C_C405.7
+            </requirement>
+            <category>PROJECT</category>
+            <status>NOT_SATISFIED</status>
+        </requirementAnswer>
+        <requirementAnswer>
+            <requirement>
+                EL28_IECC2018_C_C405.8.2_C405.8.2.1
+            </requirement>
+            <category>PROJECT</category>
+            <status>NOT_SATISFIED</status>
+        </requirementAnswer>
+        <requirementAnswer>
+            <requirement>
+                EL29_IECC2018_C_C405.9
+            </requirement>
+            <category>PROJECT</category>
+            <status>NOT_SATISFIED</status>
+        </requirementAnswer>
+    </requirements>
 </building>
