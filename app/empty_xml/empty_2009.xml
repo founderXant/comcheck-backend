@@ -8,7 +8,7 @@
     <isSemiheatedConditioning>false</isSemiheatedConditioning>
     <conditioning>HEATING_AND_COOLING</conditioning>
     <control>
-        <code>CEZ_IECC2009</code>
+        <code>CEZ_Florida</code>
         <complianceMode>UA</complianceMode>
         <version>24.1.6</version>
     </control>
