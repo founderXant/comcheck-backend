@@ -23,7 +23,6 @@ class ScrapePDFViewSet(viewsets.ModelViewSet):
         if file:
             pdf = PDFDocument.objects.create(file=file)
             file_path = pdf.file.path
-            print(standard)
 
             output_filename = f'{PDF_SCRAPED_FILE}'
             pdfs_folder = 'media/pdfs'
@@ -32,8 +31,13 @@ class ScrapePDFViewSet(viewsets.ModelViewSet):
 
             if standard == '2009':
                 PDFScraper.main(space_input_filename, output_filename)
+                print("2009")
             elif standard == '2018':
                 PDFScraper_2018.main(space_input_filename, output_filename)
+                print("2018")
+            elif standard == '2020':
+                PDFScraper_2018.main(space_input_filename, output_filename)
+                print("2020")
 
             for filename in os.listdir(pdfs_folder):
                 if filename != input_filename:

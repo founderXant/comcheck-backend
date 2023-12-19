@@ -58,8 +58,7 @@ class PDFScraper:
                 'floor_area': '',
                 'walls_info': '',
                 'roof': '',
-                'floor': '',
-                'orientation': '',
+                'floor': ''
             }
 
             start = 0
@@ -86,38 +85,12 @@ class PDFScraper:
                         end = i
                         break
 
-            def convertir_a_float_o_mantener(texto):
-                if 'S' in texto:
-                    return 'SOUTH'
-                elif 'N' in texto:
-                    return 'NORTH'
-                elif 'E' in texto:
-                    return 'EAST'
-                elif 'W' in texto:
-                    return 'WEST'
-                elif 'NE' in texto:
-                    return 'NORTHEAST'
-                elif 'NW' in texto:
-                    return 'NORTHWEST'
-                elif 'SE' in texto:
-                    return 'SOUTHEAST'
-                elif 'SW' in texto:
-                    return 'SOUTHWEST'
-                elif 'NONE' in texto:
-                    return ''
-                try:
-                    return int(float(texto))
-                except ValueError:
-                    return texto
-
             if not no_walls:
                 table_lines = text[start:end]
-                table_lines = list(map(lambda x: x.split()[0:], table_lines))
+                table_lines = list(map(lambda x: x.split()[1:], table_lines))
                 converted_to_int = []
                 for line in table_lines:
-                    int_line = list(
-                        map(lambda x: convertir_a_float_o_mantener(x), line))
-
+                    int_line = list(map(lambda x: int(float(x)), line))
                     converted_to_int.append(int_line)
 
                 table_lines = converted_to_int

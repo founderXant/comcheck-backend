@@ -1,154 +1,522 @@
 [
     {
-        "title": "Break room",
+        "title": "1 BDR",
         "building_choice_text": "NONE",
-        "building_choice_index": 1,
-        "floor_area": "140",
+        "building_choice_index": 5,
+        "floor_area": "603",
+        "walls_info": [
+            [
+                279,
+                12,
+                0,
+                0
+            ],
+            [
+                32,
+                0,
+                0,
+                0
+            ],
+            [
+                31,
+                2,
+                0,
+                0
+            ]
+        ],
+        "roof": "",
+        "floor": "603.0"
+    },
+    {
+        "title": "1 BDR w/ Roof",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "603",
+        "walls_info": [
+            [
+                279,
+                12,
+                0,
+                0
+            ],
+            [
+                32,
+                0,
+                0,
+                0
+            ],
+            [
+                31,
+                2,
+                0,
+                0
+            ]
+        ],
+        "roof": "603.0",
+        "floor": ""
+    },
+    {
+        "title": "2 BDR",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "714",
+        "walls_info": [
+            [
+                350,
+                18,
+                0,
+                0
+            ],
+            [
+                232,
+                2,
+                3,
+                0
+            ],
+            [
+                33,
+                0,
+                0,
+                0
+            ],
+            [
+                105,
+                0,
+                0,
+                0
+            ]
+        ],
+        "roof": "",
+        "floor": "714.0"
+    },
+    {
+        "title": "2 BDR w/ Roof",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "714",
+        "walls_info": [
+            [
+                350,
+                18,
+                0,
+                0
+            ],
+            [
+                232,
+                2,
+                3,
+                0
+            ],
+            [
+                33,
+                0,
+                0,
+                0
+            ],
+            [
+                105,
+                0,
+                0,
+                0
+            ]
+        ],
+        "roof": "714.0",
+        "floor": ""
+    },
+    {
+        "title": "Bldg-1 Conference",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "235",
         "walls_info": [],
         "roof": "",
-        "floor": "140.0",
-        "orientation": ""
+        "floor": "235.0"
     },
     {
-        "title": "Office space",
+        "title": "Bldg-1 Corridor 1st FLR",
         "building_choice_text": "NONE",
-        "building_choice_index": 1,
-        "floor_area": "1002",
+        "building_choice_index": 5,
+        "floor_area": "1446",
         "walls_info": [
             [
-                "SOUTH",
-                412,
-                177,
+                58,
+                3,
                 0,
                 0
             ],
             [
-                "WEST",
-                412,
+                63,
+                0,
+                0,
+                1
+            ]
+        ],
+        "roof": "",
+        "floor": "1446.0"
+    },
+    {
+        "title": "Bldg-1 Corridor 2nd FLR",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "1458",
+        "walls_info": [
+            [
+                58,
+                3,
+                0,
+                0
+            ],
+            [
+                91,
+                6,
+                0,
+                0
+            ],
+            [
+                91,
+                6,
+                0,
+                0
+            ]
+        ],
+        "roof": "",
+        "floor": ""
+    },
+    {
+        "title": "Bldg-1 Corridor 3rd FLR",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "1458",
+        "walls_info": [
+            [
+                58,
+                3,
+                0,
+                0
+            ],
+            [
+                91,
+                6,
+                0,
+                0
+            ],
+            [
+                91,
+                6,
+                0,
+                0
+            ]
+        ],
+        "roof": "1458.0",
+        "floor": ""
+    },
+    {
+        "title": "Bldg-1 Fitness",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "244",
+        "walls_info": [
+            [
+                125,
+                6,
+                0,
+                0
+            ]
+        ],
+        "roof": "",
+        "floor": "244.0"
+    },
+    {
+        "title": "Bldg-1 Men's RR",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "77",
+        "walls_info": [],
+        "roof": "",
+        "floor": "77.0"
+    },
+    {
+        "title": "Bldg-1 Misc. Room 1",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "652",
+        "walls_info": [
+            [
+                352,
+                8,
+                6,
+                0
+            ],
+            [
+                101,
+                0,
+                0,
+                0
+            ],
+            [
+                33,
+                0,
+                0,
+                0
+            ]
+        ],
+        "roof": "",
+        "floor": "652.0"
+    },
+    {
+        "title": "Bldg-1 Misc. Room 2",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "261",
+        "walls_info": [
+            [
+                200,
+                6,
+                3,
+                0
+            ],
+            [
+                139,
+                4,
+                0,
+                0
+            ]
+        ],
+        "roof": "",
+        "floor": "261.0"
+    },
+    {
+        "title": "Bldg-1 Wellness",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "147",
+        "walls_info": [
+            [
+                148,
+                6,
+                0,
+                0
+            ],
+            [
+                52,
+                0,
+                0,
+                0
+            ],
+            [
+                20,
+                0,
+                0,
+                0
+            ]
+        ],
+        "roof": "",
+        "floor": "147.0"
+    },
+    {
+        "title": "Bldg-1 Women's RR",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "77",
+        "walls_info": [],
+        "roof": "",
+        "floor": "77.0"
+    },
+    {
+        "title": "Bldg-2 Community Rm",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "355",
+        "walls_info": [
+            [
+                145,
+                6,
+                0,
+                0
+            ],
+            [
+                193,
+                6,
+                0,
+                0
+            ],
+            [
+                146,
+                6,
+                0,
+                0
+            ]
+        ],
+        "roof": "355.0",
+        "floor": "355.0"
+    },
+    {
+        "title": "Bldg-2 Computer Center",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "476",
+        "walls_info": [
+            [
+                57,
+                0,
+                0,
+                0
+            ],
+            [
+                63,
+                0,
+                0,
+                1
+            ]
+        ],
+        "roof": "",
+        "floor": "476.0"
+    },
+    {
+        "title": "Bldg-2 Corridor 1st FLR",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "1262",
+        "walls_info": [
+            [
+                61,
+                3,
+                0,
+                0
+            ],
+            [
+                10,
+                0,
+                0,
+                0
+            ]
+        ],
+        "roof": "",
+        "floor": "1262.0"
+    },
+    {
+        "title": "Bldg-2 Corridor 2nd FLR",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "1262",
+        "walls_info": [
+            [
+                61,
+                4,
+                0,
+                0
+            ],
+            [
+                10,
+                0,
+                0,
+                0
+            ]
+        ],
+        "roof": "",
+        "floor": ""
+    },
+    {
+        "title": "Bldg-2 Corridor 3rd FLR",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "1262",
+        "walls_info": [
+            [
+                61,
+                4,
+                0,
+                0
+            ],
+            [
+                10,
+                0,
+                0,
+                0
+            ]
+        ],
+        "roof": "1262.0",
+        "floor": ""
+    },
+    {
+        "title": "Bldg-2 Electrical",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "78",
+        "walls_info": [
+            [
+                79,
+                0,
+                0,
+                1
+            ]
+        ],
+        "roof": "",
+        "floor": "78.0"
+    },
+    {
+        "title": "Bldg-2 Mailroom",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "216",
+        "walls_info": [
+            [
+                106,
+                0,
+                0,
+                0
+            ]
+        ],
+        "roof": "",
+        "floor": "216.0"
+    },
+    {
+        "title": "Bldg-2 Maintenace",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "116",
+        "walls_info": [
+            [
                 120,
                 0,
-                0
-            ]
-        ],
-        "roof": "",
-        "floor": "1002.0",
-        "orientation": ""
-    },
-    {
-        "title": "Storage floor 1",
-        "building_choice_text": "NONE",
-        "building_choice_index": 1,
-        "floor_area": "34892",
-        "walls_info": [
-            [
-                "NORTH",
-                2412,
                 0,
-                0,
-                0
+                2
             ],
             [
-                "EAST",
-                2500,
-                0,
-                0,
-                0
-            ],
-            [
-                "SOUTH",
-                2000,
-                0,
-                0,
-                0
-            ],
-            [
-                "WEST",
-                1912,
-                0,
+                100,
+                4,
                 0,
                 0
             ]
         ],
         "roof": "",
-        "floor": "34892.0",
-        "orientation": ""
+        "floor": "116.0"
     },
     {
-        "title": "Storage Space 2",
+        "title": "Bldg-2 Men's RR",
         "building_choice_text": "NONE",
-        "building_choice_index": 1,
-        "floor_area": "38330",
-        "walls_info": [
-            [
-                "NORTH",
-                1996,
-                160,
-                0,
-                0
-            ],
-            [
-                "EAST",
-                2100,
-                0,
-                0,
-                0
-            ],
-            [
-                "SOUTH",
-                2026,
-                160,
-                0,
-                0
-            ],
-            [
-                "WEST",
-                2131,
-                320,
-                0,
-                0
-            ]
-        ],
+        "building_choice_index": 5,
+        "floor_area": "64",
+        "walls_info": [],
         "roof": "",
-        "floor": "",
-        "orientation": ""
+        "floor": "64.0"
     },
     {
-        "title": "Storage Space 3",
+        "title": "Bldg-2 Storage",
         "building_choice_text": "NONE",
-        "building_choice_index": 1,
-        "floor_area": "38330",
-        "walls_info": [
-            [
-                "NORTH",
-                1996,
-                160,
-                0,
-                0
-            ],
-            [
-                "EAST",
-                2100,
-                0,
-                0,
-                0
-            ],
-            [
-                "SOUTH",
-                2026,
-                160,
-                0,
-                0
-            ],
-            [
-                "WEST",
-                2131,
-                320,
-                0,
-                0
-            ]
-        ],
-        "roof": "38330.0",
-        "floor": "",
-        "orientation": ""
+        "building_choice_index": 5,
+        "floor_area": "77",
+        "walls_info": [],
+        "roof": "",
+        "floor": "77.0"
+    },
+    {
+        "title": "Bldg-2 Women's RR",
+        "building_choice_text": "NONE",
+        "building_choice_index": 5,
+        "floor_area": "64",
+        "walls_info": [],
+        "roof": "",
+        "floor": "64.0"
     }
 ]

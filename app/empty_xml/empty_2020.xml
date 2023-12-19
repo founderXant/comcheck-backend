@@ -26,21 +26,15 @@
         <airBarrierComplianceType>AIR_BARRIER_OPTION_UNKNOWN</airBarrierComplianceType>
         <applyWindowPctAllowanceForDaylighting>false</applyWindowPctAllowanceForDaylighting>
         <applySkylightPctAllowanceForDaylighting>false</applySkylightPctAllowanceForDaylighting>
+        <aboveGroundWalls>
+        </aboveGroundWalls>
+        <roofs>
+        </roofs>
     </envelope>
     <lighting>
         <exteriorLightingZone>0</exteriorLightingZone>
         <exteriorLightingZoneType>EXT_ZONE_UNSPECIFIED</exteriorLightingZoneType>
         <wholeBldgUses>
-            <wholeBldgUse>
-                <wholeBldgType>WHOLE_BUILDING_INVALID_USE</wholeBldgType>
-                <key>1130225492</key>
-                <powerDensity>0</powerDensity>
-                <internalLoad>0</internalLoad>
-                <ceilingHeight>0</ceilingHeight>
-                <listPosition>0</listPosition>
-                <constructionType>NON_RESIDENTIAL</constructionType>
-                <floorArea>0</floorArea>
-            </wholeBldgUse>
         </wholeBldgUses>
         <activityUses>
             <activityUse>

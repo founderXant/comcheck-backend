@@ -284,7 +284,7 @@ def xml_2020(STARTING_XML_2020_FILE, USER_INPUT_FILE, PDF_SCRAPED_FILE, XML_OUTP
     wall_r_values = user_input['r_values']['ext_wall']
     window_r_values = user_input['r_values']['window']
 
-    xml_generator = XMLGenerator()
+    xml_generator = XMLGenerator_2018()
     for building_info in scraped_json:
         building_index = building_info['building_choice_index']-1
         building_description = building_info['title']
@@ -302,22 +302,18 @@ def xml_2020(STARTING_XML_2020_FILE, USER_INPUT_FILE, PDF_SCRAPED_FILE, XML_OUTP
                 roof_index, building_key, roof_area, roof_r_values[0], roof_r_values[1])
             roof_list.append(roof)
 
-        if floor_area not in ['', '0.0']:
-            floor = xml_generator.get_floor_xml(
-                floor_index, building_key, floor_area, floor_r_values[0], floor_r_values[1])
-            floor_list.append(floor)
-
         for wall_info in building_wall_list:
-            wall_area = wall_info[0]
-            window1_quantity = wall_info[1]
-            window2_quantity = wall_info[2]
+            wall_orientation = wall_info[0]
+            wall_area = wall_info[1]
+            window1_quantity = wall_info[2]
+            window2_quantity = wall_info[3]
             window1_area_quantity = window1_quantity * window1_area
             window2_area_quantity = window2_quantity * window2_area
-            door_area = wall_info[3]
+            door_area = wall_info[4]
 
             if wall_area:
                 wall = xml_generator.get_wall_xml(
-                    wall_index, building_key, wall_area, wall_r_values[0], wall_r_values[1])
+                    wall_orientation, wall_index, building_key, wall_area, wall_r_values[0], wall_r_values[1])
                 window_list = wall.find('windows')
                 door_list = wall.find('doors')
 

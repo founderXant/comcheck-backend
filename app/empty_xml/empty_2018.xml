@@ -36,26 +36,6 @@
         <exteriorLightingZone>0</exteriorLightingZone>
         <exteriorLightingZoneType>EXT_ZONE_UNSPECIFIED</exteriorLightingZoneType>
         <wholeBldgUses>
-            <wholeBldgUse>
-                <wholeBldgType>WHOLE_BUILDING_FIRE_STATION</wholeBldgType>
-                <key>1476085916</key>
-                <powerDensity>0.53</powerDensity>
-                <internalLoad>1.95</internalLoad>
-                <ceilingHeight>0</ceilingHeight>
-                <listPosition>0</listPosition>
-                <constructionType>NON_RESIDENTIAL</constructionType>
-                <floorArea>100</floorArea>
-            </wholeBldgUse>
-            <wholeBldgUse>
-                <wholeBldgType>WHOLE_BUILDING_AUTOMOTIVE</wholeBldgType>
-                <key>1684402967</key>
-                <powerDensity>0.71</powerDensity>
-                <internalLoad>0.75</internalLoad>
-                <ceilingHeight>0</ceilingHeight>
-                <listPosition>0</listPosition>
-                <constructionType>NON_RESIDENTIAL</constructionType>
-                <floorArea>150</floorArea>
-            </wholeBldgUse>
         </wholeBldgUses>
         <activityUses>
         </activityUses>
