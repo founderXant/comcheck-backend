@@ -9,6 +9,7 @@ output_xml_folder = os.path.join(folder, 'output_xml')
 PDF_SCRAPED_FILE = os.path.join(json_folder, 'pdf_scraped.json')
 USER_INPUT_FILE = os.path.join(json_folder, 'user_inputs.json')
 XML_ELEMENTS_INFO_FILE = os.path.join(json_folder, 'elements_info.json')
+XML_ELEMENTS_INFO_FILE_2018 = os.path.join(json_folder, 'elements_info_2018.json')
 XML_OUTPUT = 'xml_output.cxl'
 
 

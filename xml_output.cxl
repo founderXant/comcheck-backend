@@ -8,7 +8,7 @@
     <isSemiheatedConditioning>false</isSemiheatedConditioning>
     <conditioning>HEATING_AND_COOLING</conditioning>
     <control>
-        <code>CEZ_IECC2018</code>
+        <code>CEZ_IECC2009</code>
         <complianceMode>UA</complianceMode>
         <version>24.1.6</version>
     </control>
@@ -20,457 +20,16 @@
         <projectComplete>false</projectComplete>
     </project>
     <envelope>
-        <useOrientDetails>true</useOrientDetails>
+        <useOrientDetails>false</useOrientDetails>
         <useVltDetails>false</useVltDetails>
         <useCoolRoofPerformanceDetails>false</useCoolRoofPerformanceDetails>
-        <airBarrierComplianceType>AIR_BARRIER_OPTION_UNKNOWN</airBarrierComplianceType>
-        <applyWindowPctAllowanceForDaylighting>false</applyWindowPctAllowanceForDaylighting>
-        <applySkylightPctAllowanceForDaylighting>false</applySkylightPctAllowanceForDaylighting>
-        <aboveGroundWalls>
-        <agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>7412441</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>SOUTH</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>412</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>7412441</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>10620</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>7412441</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>WEST</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>412</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>7412441</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>7200</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8818586</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>NORTH</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>2412</grossArea>
-                    <windows />
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8818586</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>EAST</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>2500</grossArea>
-                    <windows />
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8818586</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>SOUTH</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>2000</grossArea>
-                    <windows />
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>8818586</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>WEST</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>1912</grossArea>
-                    <windows />
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>4404960</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>NORTH</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>1996</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>4404960</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>9600</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>4404960</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>EAST</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>2100</grossArea>
-                    <windows />
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>4404960</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>SOUTH</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>2026</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>4404960</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>9600</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>4404960</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>WEST</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>2131</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>4404960</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>19200</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1023978</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>NORTH</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>1996</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>1023978</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>9600</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1023978</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>EAST</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>2100</grossArea>
-                    <windows />
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1023978</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>SOUTH</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>2026</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>1023978</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>9600</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall><agWall>
-                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
-                    <nextToUncondSpace>false</nextToUncondSpace>
-                    <description>Wood-Framed, 24in. o.c.</description>
-                    <assemblyType>Ext. Wall</assemblyType>
-                    <bldgUseKey>1023978</bldgUseKey>
-                    <cavityRvalue>10</cavityRvalue>
-                    <continuousRvalue>15</continuousRvalue>
-                    <orientation>WEST</orientation>
-                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                    <validAllowanceType>false</validAllowanceType>
-                    <validExemptionType>false</validExemptionType>
-                    <constructionType>NON_RESIDENTIAL</constructionType>
-                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                    <grossArea>2131</grossArea>
-                    <windows><window>
-                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
-                <glazingType>SINGLE_PANE</glazingType>
-                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
-                <frameType>METAL_W_THERMAL_BREAK</frameType>
-                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
-                <solarType>CLEAR</solarType>
-                <isSiteShading>false</isSiteShading>
-                <feetAg>0.00</feetAg>
-                <propShgc>0.800000</propShgc>
-                <propProjectionFactor>0.00</propProjectionFactor>
-                <listPosition>7</listPosition>
-                <description>Metal Frame w/ Thermal Break</description>
-                <assemblyType>Window</assemblyType>
-                <bldgUseKey>1023978</bldgUseKey>
-                <propUvalue>1.1</propUvalue>
-                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
-                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
-                <validAllowanceType>false</validAllowanceType>
-                <validExemptionType>false</validExemptionType>
-                <constructionType>RESIDENTIAL</constructionType>
-                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
-                <grossArea>19200</grossArea>
-            </window></windows>
-                    <doors />
-                </agWall></aboveGroundWalls>
         <roofs>
         <roof>
                         <roofType>METAL_BLDG_STANDING_SEAM_ROOF</roofType>
                         <roofInsulType>ROOF_INSUL_TYPE_UNSPECIFIED</roofInsulType>
                         <description>Metal Building, Standing Seam</description>
                         <assemblyType>Roof</assemblyType>
-                        <bldgUseKey>1023978</bldgUseKey>
+                        <bldgUseKey>8565740</bldgUseKey>
                         <cavityRvalue>35</cavityRvalue>
                         <continuousRvalue>40</continuousRvalue>
                         <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
@@ -481,35 +40,836 @@
                         <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
                         <grossArea>38330.0</grossArea>
                     </roof></roofs>
+        <floors>
+        <floor>
+                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
+
+                    
+
+                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
+
+                    <description>Steel Joist</description>
+                    <assemblyType>Floor</assemblyType>
+                    <bldgUseKey>9339120</bldgUseKey>
+
+                    <cavityRvalue>25</cavityRvalue>
+                    <continuousRvalue>30</continuousRvalue>
+
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>140.0</grossArea>
+                </floor><floor>
+                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
+
+                    
+
+                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
+
+                    <description>Steel Joist</description>
+                    <assemblyType>Floor</assemblyType>
+                    <bldgUseKey>4427204</bldgUseKey>
+
+                    <cavityRvalue>25</cavityRvalue>
+                    <continuousRvalue>30</continuousRvalue>
+
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>1002.0</grossArea>
+                </floor><floor>
+                    <floorType>NON_WOOD_JOIST_TRUSS_FLOOR</floorType>
+
+                    
+
+                    <floorExposedFrameType> FLOOR_EXPOSED_FRAME_TYPE_UNSPECIFIED </floorExposedFrameType>
+
+                    <description>Steel Joist</description>
+                    <assemblyType>Floor</assemblyType>
+                    <bldgUseKey>6322877</bldgUseKey>
+
+                    <cavityRvalue>25</cavityRvalue>
+                    <continuousRvalue>30</continuousRvalue>
+
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>34892.0</grossArea>
+                </floor></floors>
+        <aboveGroundWalls>
+        <agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>4427204</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>SOUTH</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>4427204</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>24720</grossArea>
+            </window><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>4427204</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>3717</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>4427204</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>WEST</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>4427204</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>24720</grossArea>
+            </window><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>4427204</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>2520</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>6322877</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>NORTH</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>6322877</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>144720</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>6322877</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>EAST</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>6322877</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>150000</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>6322877</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>SOUTH</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>6322877</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>120000</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>6322877</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>WEST</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>6322877</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>114720</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>9685044</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>NORTH</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>9685044</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>119760</grossArea>
+            </window><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>9685044</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>3360</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>9685044</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>EAST</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>9685044</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>126000</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>9685044</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>SOUTH</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>9685044</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>121560</grossArea>
+            </window><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>9685044</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>3360</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>9685044</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>WEST</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>9685044</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>127860</grossArea>
+            </window><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>9685044</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>6720</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>8565740</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>NORTH</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>8565740</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>119760</grossArea>
+            </window><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>8565740</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>3360</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>8565740</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>EAST</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>8565740</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>126000</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>8565740</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>SOUTH</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>8565740</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>121560</grossArea>
+            </window><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>8565740</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>3360</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall><agWall>
+                    <wallType>WOOD_FRAME_24_AG_WALL</wallType>
+                    <nextToUncondSpace>false</nextToUncondSpace>
+                    <description>Wood-Framed, 24in. o.c.</description>
+                    <assemblyType>Ext. Wall</assemblyType>
+                    <bldgUseKey>8565740</bldgUseKey>
+                    <cavityRvalue>10</cavityRvalue>
+                    <continuousRvalue>15</continuousRvalue>
+                    <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                    <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                    <validAllowanceType>false</validAllowanceType>
+                    <validExemptionType>false</validExemptionType>
+                    <constructionType>NON_RESIDENTIAL</constructionType>
+                    <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                    <grossArea>WEST</grossArea>
+                    <windows><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>8565740</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>127860</grossArea>
+            </window><window>
+                <windowOpenType>NON_OPERABLE_WINDOW</windowOpenType>
+                <glazingType>SINGLE_PANE</glazingType>
+                <glazingMaterialType>GLASS_GLAZING_MAT</glazingMaterialType>
+                <frameType>METAL_W_THERMAL_BREAK</frameType>
+                <perfDataType>PERF_TYPE_DEFAULT</perfDataType>
+                <solarType>CLEAR</solarType>
+                <isSiteShading>false</isSiteShading>
+                <feetAg>0.00</feetAg>
+                <propShgc>0.800000</propShgc>
+                <propProjectionFactor>0.00</propProjectionFactor>
+                <listPosition>7</listPosition>
+                <description>Metal Frame w/ Thermal Break</description>
+                <assemblyType>Window</assemblyType>
+                <bldgUseKey>8565740</bldgUseKey>
+                <propUvalue>1.1</propUvalue>
+                <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
+                <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
+                <validAllowanceType>false</validAllowanceType>
+                <validExemptionType>false</validExemptionType>
+                <constructionType>RESIDENTIAL</constructionType>
+                <adjacentSpaceType>ADJACENT_SPACE_EXTERIOR</adjacentSpaceType>
+                <grossArea>6720</grossArea>
+            </window></windows>
+                    <doors />
+                </agWall></aboveGroundWalls>
     </envelope>
     <lighting>
         <exteriorLightingZone>0</exteriorLightingZone>
         <exteriorLightingZoneType>EXT_ZONE_UNSPECIFIED</exteriorLightingZoneType>
         <wholeBldgUses>
             <wholeBldgUse>
-                <wholeBldgType>WHOLE_BUILDING_FIRE_STATION</wholeBldgType>
-                <key>1476085916</key>
-                <powerDensity>0.53</powerDensity>
-                <internalLoad>1.95</internalLoad>
+                <wholeBldgType>WHOLE_BUILDING_INVALID_USE</wholeBldgType>
+                <key>1504064532</key>
+                <powerDensity>0</powerDensity>
+                <internalLoad>0</internalLoad>
                 <ceilingHeight>0</ceilingHeight>
                 <listPosition>0</listPosition>
                 <constructionType>NON_RESIDENTIAL</constructionType>
-                <floorArea>100</floorArea>
-            </wholeBldgUse>
-            <wholeBldgUse>
-                <wholeBldgType>WHOLE_BUILDING_AUTOMOTIVE</wholeBldgType>
-                <key>1684402967</key>
-                <powerDensity>0.71</powerDensity>
-                <internalLoad>0.75</internalLoad>
-                <ceilingHeight>0</ceilingHeight>
-                <listPosition>0</listPosition>
-                <constructionType>NON_RESIDENTIAL</constructionType>
-                <floorArea>150</floorArea>
+                <floorArea>0</floorArea>
             </wholeBldgUse>
         </wholeBldgUses>
         <activityUses>
         <activityUse>
-                        <key>2777653</key>
+                        <key>9339120</key>
                         <activityType>ACTIVITY_AUTO_REPAIR</activityType>
                         <activityDescription>Break room</activityDescription>
                         <areaDescription>Break room</areaDescription>
@@ -529,7 +889,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>7412441</key>
+                        <key>4427204</key>
                         <activityType>ACTIVITY_AUTO_REPAIR</activityType>
                         <activityDescription>Office space</activityDescription>
                         <areaDescription>Office space</areaDescription>
@@ -549,7 +909,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>8818586</key>
+                        <key>6322877</key>
                         <activityType>ACTIVITY_AUTO_REPAIR</activityType>
                         <activityDescription>Storage floor 1</activityDescription>
                         <areaDescription>Storage floor 1</areaDescription>
@@ -569,7 +929,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>4404960</key>
+                        <key>9685044</key>
                         <activityType>ACTIVITY_AUTO_REPAIR</activityType>
                         <activityDescription>Storage Space 2</activityDescription>
                         <areaDescription>Storage Space 2</areaDescription>
@@ -589,7 +949,7 @@
                             <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
                         </interiorLightingSpace>
                     </activityUse><activityUse>
-                        <key>1023978</key>
+                        <key>8565740</key>
                         <activityType>ACTIVITY_AUTO_REPAIR</activityType>
                         <activityDescription>Storage Space 3</activityDescription>
                         <areaDescription>Storage Space 3</areaDescription>
@@ -611,7 +971,7 @@
                     </activityUse></activityUses>
         <exteriorUses>
             <exteriorUse>
-                <key>1908728485</key>
+                <key>12333970</key>
                 <exteriorType>EXTERIOR_INVALID_USE</exteriorType>
                 <powerDensity>0</powerDensity>
                 <useQuantity>0</useQuantity>
@@ -627,49 +987,4 @@
             </exteriorUse>
         </exteriorUses>
     </lighting>
-
-    <requirements>
-        <requirementAnswer>
-            <requirement>
-                PR9_IECC2018_C_C406
-            </requirement>
-            <category>PROJECT</category>
-            <status>NOT_SATISFIED</status>
-        </requirementAnswer>
-        <requirementAnswer>
-            <requirement>
-                FI57_IECC2018_C_C408.1.1
-            </requirement>
-            <category>PROJECT</category>
-            <status>NOT_SATISFIED</status>
-        </requirementAnswer>
-        <requirementAnswer>
-            <requirement>
-                EL26_IECC2018_C_C405.6
-            </requirement>
-            <category>PROJECT</category>
-            <status>NOT_SATISFIED</status>
-        </requirementAnswer>
-        <requirementAnswer>
-            <requirement>
-                EL27_IECC2018_C_C405.7
-            </requirement>
-            <category>PROJECT</category>
-            <status>NOT_SATISFIED</status>
-        </requirementAnswer>
-        <requirementAnswer>
-            <requirement>
-                EL28_IECC2018_C_C405.8.2_C405.8.2.1
-            </requirement>
-            <category>PROJECT</category>
-            <status>NOT_SATISFIED</status>
-        </requirementAnswer>
-        <requirementAnswer>
-            <requirement>
-                EL29_IECC2018_C_C405.9
-            </requirement>
-            <category>PROJECT</category>
-            <status>NOT_SATISFIED</status>
-        </requirementAnswer>
-    </requirements>
 </building>

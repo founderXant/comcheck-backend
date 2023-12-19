@@ -136,8 +136,7 @@ def xml_2018(STARTING_XML_2018_FILE, USER_INPUT_FILE, PDF_SCRAPED_FILE, XML_OUTP
     root = tree.getroot()
 
     building_list = root.find(
-        'ns:lighting/ns:activityUses', namespaces=namespace)
-    floor_list = root.find('ns:envelope/ns:floors', namespaces=namespace)
+        'ns:lighting/ns:wholeBldgUses', namespaces=namespace)
     roof_list = root.find('ns:envelope/ns:roofs', namespaces=namespace)
     wall_list = root.find(
         'ns:envelope/ns:aboveGroundWalls', namespaces=namespace)
@@ -169,7 +168,7 @@ def xml_2018(STARTING_XML_2018_FILE, USER_INPUT_FILE, PDF_SCRAPED_FILE, XML_OUTP
     wall_r_values = user_input['r_values']['ext_wall']
     window_r_values = user_input['r_values']['window']
 
-    xml_generator = XMLGenerator()
+    xml_generator = XMLGenerator_2018()
     for building_info in scraped_json:
         building_index = building_info['building_choice_index']-1
         building_description = building_info['title']

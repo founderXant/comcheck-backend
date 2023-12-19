@@ -311,15 +311,12 @@ class XMLGenerator:
 
         return ET.fromstring(floor_xml)
 
-    def get_wall_xml(self, wall_orientations, wall_index, building_key, gross_area, cavity_r_value, continuous_r_value) -> Element:
+    def get_wall_xml(self, wall_index, building_key, gross_area, cavity_r_value, continuous_r_value) -> Element:
         wall_info = self.wall_list[wall_index]
         wall_name = wall_info['name']
         wall_description = wall_info['description']
-        wall_orientation = wall_orientations
         contains_continuous_r_value = wall_info['contains_continuous_r_value']
         contains_cavity_r_value = wall_info['contains_cavity_r_value']
-
-        last_document = PDFDocument.objects.last()
 
         wall_xml = f'''
                 <agWall>
@@ -330,7 +327,6 @@ class XMLGenerator:
                     <bldgUseKey>{building_key}</bldgUseKey>
                     {'<cavityRvalue>' + str(cavity_r_value) + '</cavityRvalue>' if contains_cavity_r_value else ''}
                     {'<continuousRvalue>' + str(continuous_r_value) + '</continuousRvalue>' if contains_continuous_r_value else ''}
-                    {'<orientation>' + wall_orientation + '</orientation>' if last_document.standard == '2018' else ''}
                     <allowanceType>ENV_ALLOWANCE_NONE</allowanceType>
                     <exemptionType>ENV_EXEMPTION_NONE</exemptionType>
                     <validAllowanceType>false</validAllowanceType>

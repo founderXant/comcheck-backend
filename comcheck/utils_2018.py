@@ -203,7 +203,7 @@ class PDFScraper_2018:
 
 class XMLGenerator_2018:
     def __init__(self):
-        with open(f'{XML_ELEMENTS_INFO_FILE}', mode='r') as f:
+        with open(f'{XML_ELEMENTS_INFO_FILE_2018}', mode='r') as f:
             self.elements_info = json.load(f)
 
         self.building_list = self.elements_info['buildings_info']
@@ -223,27 +223,16 @@ class XMLGenerator_2018:
         building_key = randint(1000000, 9999999)
 
         building_xml = f'''
-                    <activityUse>
+                    <wholeBldgUse>
+                        <wholeBldgType>{building_name}</wholeBldgType>
                         <key>{building_key}</key>
-                        <activityType>{building_name}</activityType>
-                        <activityDescription><![CDATA[{description}]]></activityDescription>
-                        <areaDescription><![CDATA[{description}]]></areaDescription>
                         <powerDensity>{power_density}</powerDensity>
-                        <ceilingHeight>0</ceilingHeight>
                         <internalLoad>{internal_load}</internalLoad>
+                        <ceilingHeight>0</ceilingHeight>
                         <listPosition>0</listPosition>
                         <constructionType>{residential}</constructionType>
                         <floorArea>{floor_area}</floorArea>
-                        <interiorLightingSpace>
-                            <description><![CDATA[{description}, {floor_area}]]>
-                            </description>
-                            <allowanceType>ALLOWANCE_NONE</allowanceType>
-                            <allowanceFloorArea>0</allowanceFloorArea>
-                            <rcrPerimeter>0</rcrPerimeter>
-                            <rcrFloorToWorkplaneHeight>0</rcrFloorToWorkplaneHeight>
-                            <rcrWorkplaneToLuminaireHeight>0</rcrWorkplaneToLuminaireHeight>
-                        </interiorLightingSpace>
-                    </activityUse>
+                    </wholeBldgUse>
                     '''
 
         return ET.fromstring(building_xml)
