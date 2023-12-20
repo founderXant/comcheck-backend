@@ -8,22 +8,24 @@ from rest_framework.views import APIView
 class GenerateXMLView(APIView):
     def get(self, request):
         last_pdf = PDFDocument.objects.last()
-        print(last_pdf)
 
         if last_pdf:
             if last_pdf.standard == '2009':
                 response = xml_2009(STARTING_XML_2009_FILE, USER_INPUT_FILE,
                                     PDF_SCRAPED_FILE, XML_OUTPUT)
+                last_pdf.delete()
                 return response
 
             elif last_pdf.standard == '2018':
                 response = xml_2018(STARTING_XML_2018_FILE, USER_INPUT_FILE,
                                     PDF_SCRAPED_FILE, XML_OUTPUT)
+                last_pdf.delete()
                 return response
 
             elif last_pdf.standard == '2020':
                 response = xml_2020(STARTING_XML_2020_FILE, USER_INPUT_FILE,
                                     PDF_SCRAPED_FILE, XML_OUTPUT)
+                last_pdf.delete()
                 return response
 
             else:
