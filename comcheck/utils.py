@@ -1,14 +1,14 @@
-import json
-import re
+from xml.etree.ElementTree import Element
 import xml.etree.ElementTree as ET
 from random import randint
-from xml.etree.ElementTree import Element
 
+import json
 import PyPDF2
+import re
+
 from app.constants import *
-from app.models import PDFDocument
 
-
+from django.conf import settings 
 class PDFScraper:
 
     @staticmethod
@@ -37,14 +37,15 @@ class PDFScraper:
                     page_texts.append(next_page.splitlines())
 
             elif 'General Details' in current_page and 'General Details' not in next_page:
-                page_texts.append(current_page.splitlines() +
-                                  next_page.splitlines())
+                page_texts.append(current_page.splitlines() + next_page.splitlines())
 
             page_count += 1
 
         print(f'Completed reading {filename}')
 
         return page_texts
+
+
 
     @staticmethod
     def scrape_space_input(page_texts):
@@ -95,6 +96,8 @@ class PDFScraper:
 
                 table_lines = converted_to_int
 
+
+
             else:
                 table_lines = []
 
@@ -110,8 +113,7 @@ class PDFScraper:
                 if '6. Floors:' in text[i] and 'No additional input required for this floor type' not in text[i + 2]:
                     floor_text = text[i + 2].strip()
                     try:
-                        floor_value = re.search(
-                            r'\d+.\d+', floor_text).group(0)
+                        floor_value = re.search(r'\d+.\d+', floor_text).group(0)
                         info['floor'] = floor_value
                         break
                     except:
@@ -123,6 +125,8 @@ class PDFScraper:
 
         return all_info
 
+
+
     @staticmethod
     def read_window_input(filename):
         print(f'Reading {filename}')
@@ -131,6 +135,8 @@ class PDFScraper:
         text = pdf.pages[0].extract_text().splitlines()
         print(f'Completed reading {filename}')
         return text
+
+
 
     @staticmethod
     def scrape_window_input(text):
@@ -148,6 +154,7 @@ class PDFScraper:
                 }
                 windows.append(info)
 
+
         remaining = 2 - len(windows)
 
         while remaining > 0:
@@ -159,7 +166,10 @@ class PDFScraper:
             windows.append(info)
             remaining -= 1
 
+
         return windows
+
+
 
     @staticmethod
     def main(space_input_filename, output_filename):
@@ -167,10 +177,12 @@ class PDFScraper:
 
         input_info = PDFScraper.scrape_space_input(space_input_text)
 
+
         with open(output_filename, mode='w') as f:
             json.dump(input_info, f, indent=4)
 
         print(f'Scraped information saved in: {output_filename}')
+
 
 
 class XMLGenerator:
@@ -185,10 +197,10 @@ class XMLGenerator:
         self.window_list = self.elements_info['windows_info']
         self.door_list = self.elements_info['doors_info']
 
+
     def get_building_xml(self, building_index, description, is_residential, floor_area) -> Element:
 
         building = self.building_list[building_index]
-
         building_name = building['name']
         power_density = building['power_density']
         internal_load = building['internal_load']
@@ -221,6 +233,7 @@ class XMLGenerator:
 
         return ET.fromstring(building_xml)
 
+
     def get_roof_xml(self, roof_index, building_key, gross_area, cavity_r_value, continuous_r_value) -> Element:
         roof_info = self.roof_list[roof_index]
         roof_name = roof_info['name']
@@ -247,6 +260,7 @@ class XMLGenerator:
                     </roof>
                 '''
         return ET.fromstring(roof_xml)
+
 
     def get_floor_xml(self, floor_index, building_key, gross_area, cavity_r_value, continuous_r_value) -> Element:
         floor_info = self.floor_list[floor_index]
@@ -284,6 +298,7 @@ class XMLGenerator:
 
         return ET.fromstring(floor_xml)
 
+
     def get_wall_xml(self, wall_index, building_key, gross_area, cavity_r_value, continuous_r_value) -> Element:
         wall_info = self.wall_list[wall_index]
         wall_name = wall_info['name']
@@ -313,6 +328,7 @@ class XMLGenerator:
             '''
 
         return ET.fromstring(wall_xml)
+
 
     def get_window_xml(self, window_index, building_key, gross_area) -> Element:
         window_info = self.window_list[window_index]
@@ -348,6 +364,7 @@ class XMLGenerator:
             '''
 
         return ET.fromstring(window_xml)
+
 
     def get_door_xml(self, door_index, building_key, gross_area, is_swinging) -> Element:
         door_info = self.door_list[door_index]

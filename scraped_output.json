@@ -1,0 +1,273 @@
+[
+    {
+        "title": "Discovery room",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "158",
+        "walls_info": [
+            [
+                160,
+                45,
+                0,
+                0
+            ]
+        ],
+        "roof": "158.0",
+        "floor": "158.0"
+    },
+    {
+        "title": "Dog Wash",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "104",
+        "walls_info": [
+            [
+                150,
+                69,
+                0,
+                0
+            ],
+            [
+                234,
+                0,
+                0,
+                1
+            ]
+        ],
+        "roof": "104.0",
+        "floor": "104.0"
+    },
+    {
+        "title": "Fitness/  Yoga (fix N/S)",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "1102",
+        "walls_info": [
+            [
+                326,
+                162,
+                0,
+                0
+            ],
+            [
+                458,
+                194,
+                0,
+                0
+            ],
+            [
+                350,
+                0,
+                0,
+                0
+            ]
+        ],
+        "roof": "1102.0",
+        "floor": "1102.0"
+    },
+    {
+        "title": "Great Room (north)",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "1417",
+        "walls_info": [
+            [
+                557,
+                261,
+                0,
+                0
+            ]
+        ],
+        "roof": "1417.0",
+        "floor": "1417.0"
+    },
+    {
+        "title": "Great room (South)",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "2237",
+        "walls_info": [
+            [
+                1053,
+                588,
+                0,
+                0
+            ]
+        ],
+        "roof": "2237.0",
+        "floor": "2237.0"
+    },
+    {
+        "title": "Makers space hallway",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "242",
+        "walls_info": [
+            [
+                96,
+                0,
+                0,
+                1
+            ]
+        ],
+        "roof": "242.0",
+        "floor": "242.0"
+    },
+    {
+        "title": "Makers Space/ Game room",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "700",
+        "walls_info": [
+            [
+                147,
+                69,
+                0,
+                0
+            ],
+            [
+                458,
+                200,
+                0,
+                0
+            ],
+            [
+                348,
+                0,
+                0,
+                0
+            ]
+        ],
+        "roof": "700.0",
+        "floor": "700.0"
+    },
+    {
+        "title": "Managers Office",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "159",
+        "walls_info": [
+            [
+                160,
+                45,
+                0,
+                0
+            ]
+        ],
+        "roof": "159.0",
+        "floor": "159.0"
+    },
+    {
+        "title": "Media/ Music",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "396",
+        "walls_info": [
+            [
+                178,
+                0,
+                0,
+                0
+            ],
+            [
+                421,
+                169,
+                0,
+                0
+            ]
+        ],
+        "roof": "396.0",
+        "floor": "396.0"
+    },
+    {
+        "title": "Media/ Music Hallway",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "131",
+        "walls_info": [
+            [
+                96,
+                0,
+                0,
+                1
+            ]
+        ],
+        "roof": "131.0",
+        "floor": "131.0"
+    },
+    {
+        "title": "Mens/Womens RR",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "508",
+        "walls_info": [
+            [
+                387,
+                0,
+                0,
+                1
+            ]
+        ],
+        "roof": "508.0",
+        "floor": "508.0"
+    },
+    {
+        "title": "Office",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "158",
+        "walls_info": [],
+        "roof": "158.0",
+        "floor": "158.0"
+    },
+    {
+        "title": "Package Room",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "182",
+        "walls_info": [],
+        "roof": "182.0",
+        "floor": "182.0"
+    },
+    {
+        "title": "Pub",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "295",
+        "walls_info": [
+            [
+                457,
+                194,
+                0,
+                0
+            ]
+        ],
+        "roof": "295.0",
+        "floor": "295.0"
+    },
+    {
+        "title": "Shared Work",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "426",
+        "walls_info": [
+            [
+                426,
+                169,
+                0,
+                0
+            ]
+        ],
+        "roof": "426.0",
+        "floor": "426.0"
+    },
+    {
+        "title": "Storage",
+        "building_choice_text": "NONE",
+        "building_choice_index": 2,
+        "floor_area": "75",
+        "walls_info": [],
+        "roof": "75.0",
+        "floor": "75.0"
+    }
+]
