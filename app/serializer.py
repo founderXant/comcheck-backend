@@ -1,11 +1,13 @@
 from rest_framework import serializers
 from app.models import PDFDocument
 
+
+
 class ScrapePDFSerializer (serializers.ModelSerializer):
     class Meta:
         model = PDFDocument
         fields = '__all__'
-
+        
 class BuildingAreaSerializer (serializers.Serializer):
     description = serializers.CharField(max_length=200)
     

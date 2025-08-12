@@ -11,31 +11,11 @@ import xml.etree.ElementTree as ET
 from comcheck.utils import XMLGenerator
 from rest_framework.views import APIView
 from django.http import FileResponse
-from django.http import JsonResponse, HttpResponse
-from django.views import View
-from django.core.files.storage import FileSystemStorage
-import pandas as pd
-from PyPDF2 import PdfReader
-import re
+from django.http import HttpResponse
 
-from django.http import JsonResponse, HttpResponse
-from django.views import View
-from django.core.files.storage import FileSystemStorage
-import os
-from PyPDF2 import PdfReader
-import re
-import tempfile
 
-#Log the current temporary directory
-print(f"Current temporary directory: {tempfile.gettempdir()}")
 
-# Check if the directory exists
-if not os.path.exists(tempfile.gettempdir()):
-    print("Temporary directory does not exist!")
-else:
-    print("Temporary directory exists.")
 
-                
 class ScrapePDFViewSet(viewsets.ModelViewSet):
     serializer_class = ScrapePDFSerializer
     queryset = PDFDocument.objects.all()
@@ -261,34 +241,31 @@ class GenerateXMLView(APIView):
             response['Content-Disposition'] = f'attachment; filename={XML_OUTPUT_FILE}'
         return response
 
+        
+        
+            
+        
+       
+
+
+    
+    
+        
+        
+ 
 
 
 
 
+    
+
+   
+       
+    
+            
+    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
 
 
