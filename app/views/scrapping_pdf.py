@@ -21,7 +21,7 @@ class ScrapePDFViewSet(viewsets.ModelViewSet):
         standard = request.data.get('standard')
 
         if file:
-            pdf = PDFDocument.objects.create(file=file, standard=standard)
+            pdf = PDFDocument.objects.create(file=file,)
             file_path = pdf.file.path
 
             output_filename = f'{PDF_SCRAPED_FILE}'
